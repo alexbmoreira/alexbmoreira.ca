@@ -22,6 +22,8 @@ export default {
 <style scoped>
 .header {
   position: relative; /* relative */
+  display: flex; /* flex */
+  height: 100vh; /* h-screen */
 }
 
 .background {
@@ -37,12 +39,12 @@ export default {
 .words {
   display: flex; /* flex */
   flex-direction: column; /* flex-col */
+  margin: auto; /* m-auto */
 }
 
 .name {
   color: white; /* text-white */
   margin: 0 auto; /* mx-auto */
-  margin-top: 15rem; /* m-60 */
   font-size: 4.5rem;
   line-height: 1; /* text-7xl */
 }
@@ -50,7 +52,7 @@ export default {
 .description {
   color: white; /* text-white */
   margin: 0 auto; /* mx-auto */
-  margin-top: 0.5rem; /* m-2 */
+  margin-top: 0.5rem; /* mt-2 */
   font-size: 1.5rem;
   line-height: 2rem; /* text-2xl */
 }
