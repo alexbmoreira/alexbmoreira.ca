@@ -1,6 +1,9 @@
 <template>
   <div class="header">
-    <h1 class="name">Alex Moreira</h1>
+    <div class="words">
+      <h1 class="name">Alex Moreira</h1>
+      <h1 class="position">Software Developer • Toronto, ON</h1>
+    </div>
     <div class="background"></div>
   </div>
 </template>
@@ -19,7 +22,6 @@ export default {
 <style scoped>
 .header {
   position: relative; /* relative */
-  display: flex; /* flex */
 }
 
 .background {
@@ -32,11 +34,24 @@ export default {
   z-index: -10; /* z-n10 */
 }
 
+.words {
+  display: flex; /* flex */
+  flex-direction: column; /* flex-col */
+}
+
 .name {
   color: white; /* text-white */
   margin: 0 auto; /* mx-auto */
   margin-top: 15rem; /* m-60 */
   font-size: 4.5rem;
-  line-height: 1; /* text-xl */
+  line-height: 1; /* text-7xl */
+}
+
+.position {
+  color: white; /* text-white */
+  margin: 0 auto; /* mx-auto */
+  margin-top: 0.5rem; /* m-2 */
+  font-size: 1.5rem;
+  line-height: 2rem; /* text-2xl */
 }
 </style>
