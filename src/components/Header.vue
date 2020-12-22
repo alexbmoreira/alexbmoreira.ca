@@ -2,7 +2,7 @@
   <div class="header">
     <div class="words">
       <h1 class="name">Alex Moreira</h1>
-      <h1 class="position">Software Developer • Toronto, ON</h1>
+      <h1 class="description">Software Developer • Toronto, ON</h1>
     </div>
     <div class="background"></div>
   </div>
@@ -47,7 +47,7 @@ export default {
   line-height: 1; /* text-7xl */
 }
 
-.position {
+.description {
   color: white; /* text-white */
   margin: 0 auto; /* mx-auto */
   margin-top: 0.5rem; /* m-2 */
