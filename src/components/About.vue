@@ -15,11 +15,9 @@
             working in C#, and SQL.
           </p>
           <h1 class="text-2xl font-bold text-white pt-3">Contact</h1>
-          <div class="grid grid-cols-8 text-gray-400">
-            <span class="font-medium md:col-span-2">Email:</span
-            ><span class="col-span-7 md:col-span-6">alexbmoreira@gmail.com</span>
-            <span class="font-medium md:col-span-2">Phone:</span
-            ><span class="col-span-7 md:col-span-6">(416) 433-6886</span>
+          <div class="flex flex-col text-gray-400">
+            <span><i class="fas fa-envelope mr-2"></i>alexbmoreira@gmail.com</span>
+            <span><i class="fas fa-phone-alt mr-2"></i>(416) 433-6886</span>
           </div>
         </div>
       </div>
