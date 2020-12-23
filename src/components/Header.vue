@@ -1,24 +1,26 @@
 <template>
-  <div class="header">
-    <div class="words">
-      <h1 class="name">Alex Moreira</h1>
-      <h1 class="description">Software Developer • <i>Toronto, ON</i></h1>
-      <div class="links">
-        <a href="https://github.com/alexbmoreira" class="link">
+  <div class="relative flex h-screen">
+    <div class="text-white flex flex-col m-auto">
+      <h1 class="mx-auto text-6xl">Alex Moreira</h1>
+      <h1 class="mx-auto mt-2 text-2xl">
+        Software Developer • <i>Toronto, ON</i>
+      </h1>
+      <div class="mx-auto mt-4 text-4xl justify-around flex w-9/12">
+        <a href="https://github.com/alexbmoreira" class="text-center">
           <i class="fab fa-github"></i>
-          <p class="link-text">Github</p>
+          <p class="text-sm">Github</p>
         </a>
-        <a href="https://www.linkedin.com/in/alexbmoreira" class="link">
+        <a href="https://www.linkedin.com/in/alexbmoreira" class="text-center">
           <i class="fab fa-linkedin"></i>
-          <p class="link-text">LinkedIn</p>
+          <p class="text-sm">LinkedIn</p>
         </a>
-        <a href="" class="link">
+        <a href="" class="text-center">
           <i class="fas fa-file-pdf"></i>
-          <p class="link-text">Resume</p>
+          <p class="text-sm">Resume</p>
         </a>
       </div>
     </div>
-    <div class="background"></div>
+    <div class="absolute left-0 top-0 bg-black w-screen h-screen -z-10"></div>
   </div>
 </template>
 
@@ -26,14 +28,12 @@
 export default {
   name: "Header",
   data() {
-    return {
-      
-    }
-  },
+    return {};
+  }
 };
 </script>
 
-<style scoped>
+<!-- <style scoped>
 .header {
   position: relative; /* relative */
   display: flex; /* flex */
@@ -59,8 +59,8 @@ export default {
 
 .name {
   margin: 0 auto; /* mx-auto */
-  font-size: 4.5rem;
-  line-height: 1; /* text-7xl */
+  font-size: 3.75rem;
+  line-height: 1; /* text-6xl */
 }
 
 .description {
@@ -86,4 +86,4 @@ export default {
   font-size: 0.875rem;
   line-height: 1.25rem; /* text-sm */
 }
-</style>
+</style> -->
