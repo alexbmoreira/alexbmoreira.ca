@@ -20,7 +20,7 @@
         </a>
       </div>
     </div>
-    <div class="absolute left-0 top-0 bg-black w-screen h-screen -z-10"></div>
+    <div class="absolute left-0 top-0 bg-black w-full h-screen -z-10"></div>
   </div>
 </template>
 
