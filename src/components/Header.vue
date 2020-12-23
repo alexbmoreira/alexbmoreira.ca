@@ -2,21 +2,21 @@
   <div class="relative flex h-screen">
     <div class="text-white flex flex-col m-auto">
       <h1 class="mx-auto text-6xl">Alex Moreira</h1>
-      <h1 class="mx-auto mt-2 text-2xl">
+      <h1 class="mx-auto text-2xl">
         Software Developer • <i>Toronto, ON</i>
       </h1>
-      <div class="mx-auto mt-4 text-4xl justify-around flex w-9/12">
+      <div class="mx-auto mt-2 text-4xl justify-around flex w-9/12">
         <a href="https://github.com/alexbmoreira" class="text-center">
           <i class="fab fa-github"></i>
-          <p class="text-sm">Github</p>
+          <p class="text-xs">Github</p>
         </a>
         <a href="https://www.linkedin.com/in/alexbmoreira" class="text-center">
           <i class="fab fa-linkedin"></i>
-          <p class="text-sm">LinkedIn</p>
+          <p class="text-xs">LinkedIn</p>
         </a>
         <a href="" class="text-center">
           <i class="fas fa-file-pdf"></i>
-          <p class="text-sm">Resume</p>
+          <p class="text-xs">Resume</p>
         </a>
       </div>
     </div>
