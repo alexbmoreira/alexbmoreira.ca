@@ -4,18 +4,18 @@
       <h1 class="name">Alex Moreira</h1>
       <h1 class="description">Software Developer • <i>Toronto, ON</i></h1>
       <div class="links">
-        <span class="link">
+        <a href="https://github.com/alexbmoreira" class="link">
           <i class="fab fa-github"></i>
           <p class="link-text">Github</p>
-        </span>
-        <span class="link">
+        </a>
+        <a href="https://www.linkedin.com/in/alexbmoreira" class="link">
           <i class="fab fa-linkedin"></i>
           <p class="link-text">LinkedIn</p>
-        </span>
-        <span class="link">
+        </a>
+        <a href="" class="link">
           <i class="fas fa-file-pdf"></i>
           <p class="link-text">Resume</p>
-        </span>
+        </a>
       </div>
     </div>
     <div class="background"></div>
