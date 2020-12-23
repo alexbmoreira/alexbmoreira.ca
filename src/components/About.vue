@@ -3,7 +3,7 @@
     <div class="m-auto">
         <div class="flex p-8 px-64">
             <div class="w-1/6">
-                <img class="rounded-full" src="@/assets/headshot.jpg" alt="">
+                <img class="rounded-full" src="@/assets/images/headshot.jpg" alt="">
             </div>
             <div class="pl-6 flex flex-col w-5/6">
                 <h1 class="text-2xl font-bold text-white">About Me</h1>

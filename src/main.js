@@ -1,7 +1,7 @@
 import Vue from "vue";
 import App from "./App.vue";
 
-import "./css/custom.css";
+import "./assets/css/custom.css";
 
 Vue.config.productionTip = false;
 
