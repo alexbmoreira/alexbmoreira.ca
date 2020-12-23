@@ -2,9 +2,7 @@
   <div class="relative flex h-screen">
     <div class="text-white flex flex-col m-auto">
       <h1 class="mx-auto text-6xl">Alex Moreira</h1>
-      <h1 class="mx-auto text-2xl">
-        Software Developer • <i>Toronto, ON</i>
-      </h1>
+      <h1 class="mx-auto text-2xl">Software Developer • <i>Toronto, ON</i></h1>
       <div class="mx-auto mt-2 text-4xl justify-around flex w-9/12">
         <a href="https://github.com/alexbmoreira" class="text-center">
           <i class="fab fa-github"></i>
