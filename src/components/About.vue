@@ -1,8 +1,8 @@
 <template>
   <div class="bg-gray-800 flex">
     <div class="m-auto">
-      <div class="flex p-8 px-64">
-        <div class="w-1/6">
+      <div class="flex p-8 px-64 sm:px-6 sm:flex-col">
+        <div class="w-1/6 sm:mx-auto sm:w-1/2">
           <img class="rounded-full" src="@/assets/images/headshot.jpg" alt="" />
         </div>
         <div class="pl-6 flex flex-col w-5/6">
@@ -16,10 +16,10 @@
           </p>
           <h1 class="text-2xl font-bold text-white pt-3">Contact</h1>
           <div class="grid grid-cols-8 text-gray-400">
-            <span class="font-medium">Email:</span
-            ><span class="col-span-7">alexbmoreira@gmail.com</span>
-            <span class="font-medium">Phone:</span
-            ><span class="col-span-7">(416) 433-6886</span>
+            <span class="font-medium sm:col-span-2">Email:</span
+            ><span class="col-span-7 sm:col-span-6">alexbmoreira@gmail.com</span>
+            <span class="font-medium sm:col-span-2">Phone:</span
+            ><span class="col-span-7 sm:col-span-6">(416) 433-6886</span>
           </div>
         </div>
       </div>
