@@ -38,7 +38,4 @@ export default {
 </script>
 
 <style>
-    ul {
-        list-style: outside;
-    }
 </style>
