@@ -1,9 +1,9 @@
 <template>
-    <div class="flex mb-16 md:flex-col">
-        <div class="w-1/3 bg-black mr-6 md:w-full md:mb-2">
+    <div class="flex mb-16 sm:flex-col">
+        <div class="w-1/3 mr-6 md:w-1/2 md:mb-2 sm:w-full">
             <img :src="getProjectImage()" alt="">
         </div>
-        <div class="flex flex-col w-2/3 md:w-full">
+        <div class="flex flex-col w-2/3 md:w-1/2 sm:w-full">
             <div class="flex items-center justify-between">
                 <span class="text-2xl font-bold mb-3">{{ name }}</span>
                 <div class="flex space-x-3">
