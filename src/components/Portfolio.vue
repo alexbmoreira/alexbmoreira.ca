@@ -11,7 +11,7 @@
                 link="alexbmoreira.ca"
                 :stack="[{'name': 'vuejs', 'color': 'text-green-500'},
                 {'name': 'css3-alt', 'color': 'text-blue-400'}]"
-                image="namaste.jpg" />
+                image="alexbmoreira.jpg" />
                 <Project
                 name="Filler"
                 desc="A clone of the iOS GamePigeon Filler game. My sister loves playing this game with her friends over iMessage, so I made a version online that she could play when none of her friends can."
@@ -20,7 +20,7 @@
                 {'name': 'js-square', 'color': 'text-yellow-300'},
                 {'name': 'html5', 'color': 'text-yellow-600'},
                 {'name': 'css3-alt', 'color': 'text-blue-400'}]"
-                image="namaste.jpg" />
+                image="filler.jpg" />
                 <Project
                 name="Namaste"
                 desc="A simple yoga sequence builder put together over a weekend for the 2020 Winter Hacklympics hackathon. Coded with a partner in Django and Vue.js."

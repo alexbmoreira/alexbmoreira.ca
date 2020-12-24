@@ -1,7 +1,7 @@
 <template>
     <div class="flex mb-16 sm:flex-col">
         <div class="w-1/3 mr-6 md:w-1/2 md:mb-2 sm:w-full">
-            <img :src="getProjectImage()" alt="">
+            <img class="shadow-lg" :src="getProjectImage()" alt="">
         </div>
         <div class="flex flex-col w-2/3 md:w-1/2 sm:w-full">
             <div class="flex items-center justify-between">
