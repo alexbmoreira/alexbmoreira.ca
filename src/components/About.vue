@@ -12,7 +12,7 @@
             embraces challenges in programming and has a strong passion for the
             realm of information technology. Has been programming for over 7
             years, in C, Python, Javascript, and Java, with industry experience
-            working in C#, and SQL.
+            working in C# and SQL.
           </p>
           <h1 class="text-2xl font-bold text-white pt-3">Contact</h1>
           <div class="flex flex-col text-gray-400">

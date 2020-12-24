@@ -8,7 +8,7 @@
                     <p>For more, check out my <a class="text-blue-500 hover:underline" href="https://github.com/alexbmoreira">Github!</a></p>
                 </div>
                 <Project
-                name="alexmoreira.ca"
+                name="alexbmoreira.ca"
                 desc="The website you're on right now! I show it off since it was designed and coded entirely by myself using Vue.js and TailwindCSS. No templates or downloaded code so that I could build on my front-end development skills."
                 link="alexbmoreira.ca"
                 :stack="[{'name': 'vuejs', 'color': 'text-green-500'},
