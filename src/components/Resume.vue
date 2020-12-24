@@ -8,7 +8,7 @@
                 <div class="pl-6">
                     <Work
                     company="Superior Glove"
-                    role="Software Developer (.NET) - Co-op"
+                    role="Software Developer (.NET)"
                     time="May. 2020 – Aug. 2020" 
                     image="superior_glove.png"
                     :duties="['Took the lead on creating a custom MRP solution in C# using WPF and other .NET libraries and frameworks.',

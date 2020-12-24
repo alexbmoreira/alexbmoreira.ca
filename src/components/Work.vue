@@ -1,17 +1,15 @@
 <template>
     <div class="flex flex-col mb-16">
-        <div class="flex mb-2">
+        <div class="flex mb-3 pb-3 border-b-2">
             <div class="w-1/12 sm:w-1/6 mr-5">
                 <img class="rounded" :src="getCompanyLogo()" alt="">
             </div>
             <div class="flex flex-col">
                 <span class="text-2xl font-bold">{{ company }}</span>
                 <span class="text-sm italic text-gray-500">{{ time }}</span>
-                <div class="flex justify-between sm:flex-col mb-4">
-                </div>
+            <span class="text-lg">{{ role }}</span>
             </div>     
         </div>
-        <span class="text-lg mb-3 border-b-2">{{ role }}</span>
         <ul>
            <li v-for="(duty, index) in duties" :key="index">{{ duty }}</li>
         </ul>
