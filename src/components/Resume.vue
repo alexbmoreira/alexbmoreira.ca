@@ -19,7 +19,7 @@
                     company="Welbilt Inc."
                     role="Buyer / Planner Intern"
                     time="May. 2019 – Aug. 2019" 
-                    image="superior_glove.png"
+                    image="welbilt.png"
                     :duties="['Worked in QAD to manage supplier schedules and set firm days and lead times for parts.',
                     'Communicated with suppliers about expediting orders and advising on past-dues, as well as sending out steel and cardboard consignment releases.',
                     'Used QAD and Excel to schedule welding and production lines.']" />
@@ -27,7 +27,7 @@
                     company="kubik"
                     role="Warehouse Associate"
                     time="May. 2018 – Jul. 2018"
-                    image="superior_glove.png"
+                    image="kubik.png"
                     :duties="['Worked with a team constructing displays for retail environments, trade shows, and exhibits.',
                     'Assisted in fulfilling the visions of clients such as Best Buy Canada, Mars Wrigley, and the Royal Alberta Museum.',
                     'Gained valuable experience in a professional work environment, where teamwork was a top focus.']" />

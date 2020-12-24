@@ -2,7 +2,7 @@
     <div class="flex flex-col mb-16">
         <div class="flex mb-2">
             <div class="w-1/12 sm:w-1/6 mr-5">
-                <img class="rounded-full" :src="getCompanyLogo()" alt="">
+                <img class="rounded" :src="getCompanyLogo()" alt="">
             </div>
             <div class="flex flex-col">
                 <span class="text-2xl font-bold">{{ company }}</span>
