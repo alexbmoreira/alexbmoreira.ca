@@ -4,9 +4,14 @@
         <div class="flex flex-col w-2/3">
             <div class="flex items-center justify-between">
                 <span class="text-2xl font-bold mb-3">{{ name }}</span>
-                <a :href="getGithubLink()" class="text-2xl">
-                    <i class="fab fa-github"></i>
-                </a>
+                <div class="flex space-x-3">
+                    <a v-if="devpost" :href="devpost" class="text-2xl">
+                        <img src="@/assets/images/devpost.png" class="h-6 align-middle">
+                    </a>
+                    <a :href="getGithubLink()" class="text-2xl">
+                        <i class="fab fa-github align-top"></i>
+                    </a>
+                </div>
             </div>
             <p class="text-justify mb-3">{{ desc }}</p>
             <div class="flex space-x-3">
@@ -29,6 +34,7 @@ export default {
         desc: String,
         link: String,
         stack: Array,
+        devpost: String
     },
     methods: {
         getGithubLink() {

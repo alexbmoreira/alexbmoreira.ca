@@ -19,6 +19,14 @@
                 {'name': 'js-square', 'color': 'text-yellow-300'},
                 {'name': 'html5', 'color': 'text-yellow-600'},
                 {'name': 'css3-alt', 'color': 'text-blue-400'}]" />
+                <Project
+                name="Namaste"
+                desc="A simple yoga sequence builder put together over a weekend for the 2020 Winter Hacklympics hackathon. Coded with a partner in Django and Vue.js."
+                link="yoga-app"
+                devpost="https://devpost.com/software/namaste-q1j6gk"
+                :stack="[{'name': 'python', 'color': 'text-blue-700'},
+                {'name': 'vuejs', 'color': 'text-green-500'},
+                {'name': 'css3-alt', 'color': 'text-blue-400'}]" />
             </div>
         </div>
     </div>
