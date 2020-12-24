@@ -32,6 +32,17 @@
                     'Assisted in fulfilling the visions of clients such as Best Buy Canada, Mars Wrigley, and the Royal Alberta Museum.',
                     'Gained valuable experience in a professional work environment, where teamwork was a top focus.']" />
                 </div>
+                <div class="mx-auto mb-8">
+                    <span class="font-bold text-3xl border-b-2 border-gray-400">Education</span>
+                </div>
+                <div class="pl-6">
+                    <Education
+                    school="University of Guelph"
+                    degree="Bachelor of Computer Science, Honors"
+                    grad="Graduating Apr. 2021" 
+                    image="uoguelph.jpg"
+                    :notes="['Emphasis in Mathematical Science']" />
+                </div>
             </div>
         </div>
 	</div>
@@ -39,11 +50,13 @@
 
 <script>
     import Work from "./Work";
+    import Education from "./Education";
 
 	export default {
 		name: "Resume",
         components: {
-            Work
+            Work,
+            Education
         },
 		data() {
 			return {};
