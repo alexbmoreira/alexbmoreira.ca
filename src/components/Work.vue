@@ -1,5 +1,5 @@
 <template>
-    <div class="flex flex-col">
+    <div class="flex flex-col mb-16">
         <div class="flex mb-2">
             <div class="w-1/12 sm:w-1/6 mr-5">
                 <img class="rounded-full" src="@/assets/images/company_logos/superior_glove.png" alt="">
