@@ -1,7 +1,9 @@
 <template>
     <div class="flex mb-16 md:flex-col">
-        <div class="w-1/3 bg-black mr-6"></div>
-        <div class="flex flex-col w-2/3">
+        <div class="w-1/3 bg-black mr-6 md:w-full md:mb-2">
+            <img :src="getProjectImage()" alt="">
+        </div>
+        <div class="flex flex-col w-2/3 md:w-full">
             <div class="flex items-center justify-between">
                 <span class="text-2xl font-bold mb-3">{{ name }}</span>
                 <div class="flex space-x-3">
@@ -34,11 +36,15 @@ export default {
         desc: String,
         link: String,
         stack: Array,
-        devpost: String
+        devpost: String,
+        image: String
     },
     methods: {
         getGithubLink() {
             return `https://github.com/alexbmoreira/${this.link}`
+        },
+        getProjectImage() {
+            return require(`@/assets/images/project_images/${this.image}`)
         }
     },
 }
