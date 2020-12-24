@@ -38,8 +38,8 @@
                 <div class="pl-6">
                     <Term
                     org="University of Guelph"
-                    degree="Bachelor of Computer Science, Honors"
-                    grad="Graduating Apr. 2021" 
+                    role="Bachelor of Computer Science, Honors"
+                    time="Graduating Apr. 2021" 
                     image="uoguelph.jpg"
                     :notes="['Emphasis in Mathematical Science']" />
                 </div>
