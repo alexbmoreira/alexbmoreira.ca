@@ -9,12 +9,16 @@
                 name="alexmoreira.ca"
                 desc="The website you're on right now! I show it off since it was designed and coded entirely by myself using Vue.js and TailwindCSS. No templates or downloaded code so that I could build on my front-end development skills."
                 link="alexbmoreira.ca"
-                :stack="['vue']" />
+                :stack="[{'name': 'vuejs', 'color': 'text-green-500'},
+                {'name': 'css3-alt', 'color': 'text-blue-400'}]" />
                 <Project
                 name="Filler"
                 desc="A clone of the iOS GamePigeon Filler game. My sister loves playing this game with her friends over iMessage, so I made a version online that she could play when none of her friends can."
                 link="filler"
-                :stack="['python', 'flask']" />
+                :stack="[{'name': 'python', 'color': 'text-blue-700'},
+                {'name': 'js-square', 'color': 'text-yellow-300'},
+                {'name': 'html5', 'color': 'text-yellow-600'},
+                {'name': 'css3-alt', 'color': 'text-blue-400'}]" />
             </div>
         </div>
     </div>

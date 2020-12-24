@@ -1,17 +1,17 @@
 <template>
-    <div class="flex mb-16">
+    <div class="flex mb-16 md:flex-col">
         <div class="w-1/3 bg-black mr-6"></div>
         <div class="flex flex-col w-2/3">
             <div class="flex items-center justify-between">
-                <span class="text-2xl font-bold">{{ name }}</span>
-                <a :href="getGithubLink()">
+                <span class="text-2xl font-bold mb-3">{{ name }}</span>
+                <a :href="getGithubLink()" class="text-2xl">
                     <i class="fab fa-github"></i>
                 </a>
             </div>
-            <p class="text-justify">{{ desc }}</p>
-            <div class="flex space-x-4">
-                <div v-for="(tech, index) in stack" :key="index">
-                    <img class="h-8 mt-2" :src="getTechLogo(tech)" alt="">
+            <p class="text-justify mb-3">{{ desc }}</p>
+            <div class="flex space-x-3">
+                <div v-for="(tech, index) in stack" :key="index" :class="`text-3xl ${tech.color}`">
+                    <i :class="`fab fa-${tech.name}`"></i>
                 </div>
             </div>
         </div>
@@ -33,9 +33,6 @@ export default {
     methods: {
         getGithubLink() {
             return `https://github.com/alexbmoreira/${this.link}`
-        },
-        getTechLogo(tech) {
-            return require(`@/assets/images/tech_logos/${tech}.png`)
         }
     },
 }
