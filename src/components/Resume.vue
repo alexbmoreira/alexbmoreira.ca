@@ -35,7 +35,7 @@
                 <div class="mx-auto mb-8">
                     <span class="font-bold text-3xl border-b-2 border-gray-400">Education</span>
                 </div>
-                <div class="pl-6">
+                <div class="pl-6 md:px-6 md:mx-auto">
                     <Term
                     org="University of Guelph"
                     role="Bachelor of Computer Science, Honors"
