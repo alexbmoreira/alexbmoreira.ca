@@ -2,7 +2,7 @@
     <div class="flex flex-col mb-16">
         <div class="flex mb-2">
             <div class="w-1/12 sm:w-1/6 mr-5">
-                <img class="rounded-full" src="@/assets/images/company_logos/superior_glove.png" alt="">
+                <img class="rounded-full" :src="getCompanyLogo(image)" alt="">
             </div>
             <div class="flex flex-col">
                 <span class="text-2xl font-bold">{{ company }}</span>
@@ -28,8 +28,14 @@ export default {
         company: String,
         role: String,
         time: String,
+        image: String,
         duties: Array,
-    }
+    },
+    methods: {
+        getCompanyLogo(image) {
+            return require(`@/assets/images/company_logos/${image}`)
+        }
+    },
 }
 </script>
 
