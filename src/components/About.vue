@@ -7,7 +7,7 @@
         </div>
         <div class="pl-6 flex flex-col w-5/6">
           <h1 class="text-2xl font-bold text-white">About Me</h1>
-          <p class="text-gray-400">
+          <p class="text-gray-400 text-justify">
             A 2021 computer science graduate from the University of Guelph who
             embraces challenges in programming and has a strong passion for the
             realm of information technology. Has been programming for over 7
