@@ -5,20 +5,26 @@
                 <div class="mx-auto mb-8">
                     <span class="font-bold text-3xl border-b-2 border-gray-400">Portfolio</span>
                 </div>
+                <Project />
             </div>
         </div>
     </div>
 </template>
 
 <script>
-export default {
-    name: "Portfolio",
-    data() {
-        return {
-            
-        }
-    },
-}
+    import Project from "./Project";
+
+    export default {
+        name: "Portfolio",
+        components: {
+            Project
+        },
+        data() {
+            return {
+                
+            }
+        },
+    }
 </script>
 
 <style>
