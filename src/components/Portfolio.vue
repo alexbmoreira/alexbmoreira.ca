@@ -5,7 +5,16 @@
                 <div class="mx-auto mb-8">
                     <span class="font-bold text-3xl border-b-2 border-gray-400">Portfolio</span>
                 </div>
-                <Project />
+                <Project
+                name="alexmoreira.ca"
+                desc="The website you're on right now! I show it off since it was designed and coded entirely by myself using Vue.js and TailwindCSS. No templates or downloaded code so that I could build on my front-end development skills."
+                link="alexbmoreira.ca"
+                :stack="['vue']" />
+                <Project
+                name="Filler"
+                desc="A clone of the iOS GamePigeon Filler game. My sister loves playing this game with her friends over iMessage, so I made a version online that she could play when none of her friends can."
+                link="filler"
+                :stack="['python', 'flask']" />
             </div>
         </div>
     </div>
