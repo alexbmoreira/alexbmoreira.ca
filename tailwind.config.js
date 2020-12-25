@@ -17,6 +17,12 @@ module.exports = {
 
       sm: { max: "639px" }
       // => @media (max-width: 639px) { ... }
+    },
+    extend: {
+      backgroundImage: theme => ({
+       'space': "url('../images/header_bg.jpg')",
+       'space-pixel': "url('../images/header_bg_pixel.jpg')"
+      })
     }
   },
   variants: {

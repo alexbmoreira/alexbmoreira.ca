@@ -1,5 +1,5 @@
 <template>
-  <div class="relative flex bg-black w-full h-screen">
+  <div class="relative flex bg-opacity-0 bg-space bg-cover h-screen">
     <div class="text-white flex flex-col m-auto space-y-6">
       <h1 class="mx-auto text-6xl md:text-5xl">Alex Moreira</h1>
       <h1 class="mx-auto text-2xl md:text-xl">Software Developer • <i>Toronto, ON</i></h1>
