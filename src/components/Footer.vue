@@ -4,7 +4,7 @@
       <div class="text-center">
         <p>Alex Moreira</p>
       </div>
-      <div class="mx-auto mt-2 text-2xl justify-around space-x-16 flex md:text-3xl">
+      <div class="mx-auto mt-2 text-2xl justify-around space-x-16 md:space-x-12 sm:space-x-8">
         <a href="https://github.com/alexbmoreira" class="text-center transition duration-400 ease-in-out hover:text-white">
           <i class="fab fa-github"></i>
         </a>
