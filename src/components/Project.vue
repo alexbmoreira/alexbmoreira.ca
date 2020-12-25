@@ -10,7 +10,7 @@
                     <a v-if="devpost" :href="devpost" class="text-2xl">
                         <img src="@/assets/images/devpost.png" class="h-6 align-middle">
                     </a>
-                    <a :href="getGithubLink()" class="text-2xl">
+                    <a :href="getGithubLink()" class="text-2xl transition duration-400 ease-in-out hover:text-blue-600">
                         <i class="fab fa-github align-top"></i>
                     </a>
                 </div>
