@@ -4,15 +4,15 @@
       <h1 class="mx-auto text-6xl md:text-5xl">Alex Moreira</h1>
       <h1 class="mx-auto text-2xl md:text-xl">Software Developer • <i>Toronto, ON</i></h1>
       <div class="mx-auto mt-2 text-4xl justify-around flex w-9/12 md:text-3xl">
-        <a href="https://github.com/alexbmoreira" class="text-center">
+        <a href="https://github.com/alexbmoreira" class="text-center transition duration-400 ease-in-out hover:text-blue-400">
           <i class="fab fa-github"></i>
           <p class="text-xs">Github</p>
         </a>
-        <a href="https://www.linkedin.com/in/alexbmoreira" class="text-center">
+        <a href="https://www.linkedin.com/in/alexbmoreira" class="text-center transition duration-400 ease-in-out hover:text-blue-400">
           <i class="fab fa-linkedin"></i>
           <p class="text-xs">LinkedIn</p>
         </a>
-        <a href="" class="text-center">
+        <a href="" class="text-center transition duration-400 ease-in-out hover:text-blue-400">
           <i class="fas fa-file-pdf"></i>
           <p class="text-xs">Resume</p>
         </a>
