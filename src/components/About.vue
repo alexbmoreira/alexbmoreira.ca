@@ -16,8 +16,8 @@
           </p>
           <h1 class="text-2xl font-bold text-white pt-3">Contact</h1>
           <div class="flex flex-col text-gray-400">
-            <span><i class="fas fa-envelope mr-2"></i>alexbmoreira@gmail.com</span>
-            <span><i class="fas fa-phone-alt mr-2"></i>(416) 433-6886</span>
+            <a href="mailto:alexbmoreira@gmail.com"><span class="hover:text-white"><i class="fas fa-envelope mr-2"></i>alexbmoreira@gmail.com</span></a>
+            <a href="tel:+14164336886"><span class="hover:text-white"><i class="fas fa-phone-alt mr-2"></i>(416) 433-6886</span></a>
           </div>
         </div>
       </div>
