@@ -1,5 +1,5 @@
 <template>
-  <div class="relative flex h-screen">
+  <div class="relative flex bg-black w-full h-screen">
     <div class="text-white flex flex-col m-auto">
       <h1 class="mx-auto text-6xl md:text-5xl">Alex Moreira</h1>
       <h1 class="mx-auto text-2xl md:text-xl">Software Developer • <i>Toronto, ON</i></h1>
@@ -18,7 +18,6 @@
         </a>
       </div>
     </div>
-    <div class="absolute left-0 top-0 bg-black w-full h-screen -z-10"></div>
   </div>
 </template>
 
