@@ -1,6 +1,7 @@
 <template>
   <div id="app">
     <Header />
+    <Navbar />
     <About />
     <Resume />
     <Portfolio />
@@ -10,6 +11,7 @@
 
 <script>
 import Header from "./components/Header";
+import Navbar from "./components/Navbar";
 import About from "./components/About";
 import Resume from "./components/Resume";
 import Portfolio from "./components/Portfolio";
@@ -19,6 +21,7 @@ export default {
   name: "App",
   components: {
     Header,
+    Navbar,
     About,
     Resume,
     Portfolio,
