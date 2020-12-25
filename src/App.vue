@@ -4,6 +4,7 @@
     <About />
     <Resume />
     <Portfolio />
+    <Footer />
   </div>
 </template>
 
@@ -12,6 +13,7 @@ import Header from "./components/Header";
 import About from "./components/About";
 import Resume from "./components/Resume";
 import Portfolio from "./components/Portfolio";
+import Footer from "./components/Footer";
 
 export default {
   name: "App",
@@ -19,7 +21,8 @@ export default {
     Header,
     About,
     Resume,
-    Portfolio
+    Portfolio,
+    Footer
   }
 };
 </script>
