@@ -32,7 +32,16 @@ export default {
     methods: {
         clickMenu() {
             this.expand = !this.expand
+        },
+        handleScroll() {
+            this.expand = false
         }
+    },
+    created() {
+        document.addEventListener('scroll', this.handleScroll)
+    },
+    destroyed() {
+        document.removeEventListener('scroll', this.handleScroll)
     },
 }
 </script>
