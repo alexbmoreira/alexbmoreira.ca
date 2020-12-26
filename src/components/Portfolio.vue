@@ -1,5 +1,5 @@
 <template>
-    <div class="bg-gray-200 flex">
+    <div id="portfolio" class="bg-gray-200 flex">
         <div class="mx-auto md:px-6">
             <div class="flex p-8 px-64 xl:px-24 md:px-12 flex-col sm:px-6">
                 <div class="mx-auto mb-8 text-center">

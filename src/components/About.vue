@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-gray-800 flex">
+  <div id="about" class="bg-gray-800 flex">
     <div class="m-auto">
       <div class="flex p-8 px-64 xl:px-24 md:px-12 md:flex-col sm:px-6">
         <div class="w-1/6 md:mx-auto md:w-1/4 sm:w-1/2">
