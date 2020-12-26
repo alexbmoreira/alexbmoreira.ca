@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <Header />
+    <Header ref="header" />
     <Navbar />
     <About />
     <Resume />
@@ -19,6 +19,10 @@ import Footer from "./components/Footer";
 
 export default {
   name: "App",
+  data() {
+    return {
+    }
+  },
   components: {
     Header,
     Navbar,
@@ -26,6 +30,8 @@ export default {
     Resume,
     Portfolio,
     Footer
+  },
+  methods: {
   }
 };
 </script>
