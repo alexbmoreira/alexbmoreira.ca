@@ -22,7 +22,10 @@ module.exports = {
       backgroundImage: theme => ({
        'space': "url('../images/header_bg.jpg')",
        'space-pixel': "url('../images/header_bg_pixel.jpg')"
-      })
+      }),
+      transformOrigin: {
+        'menu': '1rem 1rem'
+      }
     }
   },
   variants: {
