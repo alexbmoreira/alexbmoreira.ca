@@ -1,8 +1,8 @@
 <template>
   <div id="app">
     <Header ref="header" />
-    <Navbar ref=navbar />
-    <Menu />
+    <Navbar ref="navbar" />
+    <Menu :class="{'invisible': !show_menu}" />
     <About />
     <Resume />
     <Portfolio />
@@ -23,6 +23,7 @@ export default {
   name: "App",
   data() {
     return {
+      show_menu: false
     }
   },
   components: {
@@ -36,10 +37,21 @@ export default {
   },
   methods: {
     handleScroll() {
-      console.log(window)
-      console.log(this.$refs.navbar.$el.clientHeight)
+      if(window.pageYOffset >= this.$refs.header.$el.clientHeight)
+      {
+        this.show_menu = true
+      }
+      else {
+        this.show_menu = false
+      }
     }
-  }
+  },
+  created() {
+    document.addEventListener('scroll', this.handleScroll)
+  },
+  destroyed() {
+    document.removeEventListener('scroll', this.handleScroll)
+  },
 };
 </script>
 
