@@ -37,13 +37,7 @@ export default {
   },
   methods: {
     handleScroll() {
-      if(window.pageYOffset >= this.$refs.header.$el.clientHeight)
-      {
-        this.show_menu = true
-      }
-      else {
-        this.show_menu = false
-      }
+      this.show_menu = (window.pageYOffset >= this.$refs.header.$el.clientHeight)
     }
   },
   created() {
