@@ -1,7 +1,7 @@
 <template>
   <div class="relative flex bg-black h-screen">
     <div class="text-white flex flex-col m-auto space-y-4">
-      <h1 class="mx-auto text-6xl md:text-5xl">Alex Moreira</h1>
+      <h1 class="mx-auto text-6xl md:text-5xl font-quicksand">Alex Moreira</h1>
       <h1 class="mx-auto text-2xl md:text-xl">Software Developer • <i>Toronto, ON</i></h1>
       <div class="mx-auto text-4xl justify-around flex w-9/12 md:text-3xl">
         <a href="https://github.com/alexbmoreira" class="text-center transition duration-400 ease-in-out hover:text-blue-600 z-10">

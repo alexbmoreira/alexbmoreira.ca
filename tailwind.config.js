@@ -18,6 +18,9 @@ module.exports = {
       sm: { max: "639px" }
       // => @media (max-width: 639px) { ... }
     },
+    fontFamily: {
+      'quicksand': ['Quicksand', 'sans-serif']
+    },
     extend: {
       backgroundImage: theme => ({
        'space': "url('../images/header_bg.jpg')",
