@@ -11,7 +11,7 @@
         <a href="https://www.linkedin.com/in/alexbmoreira" class="text-center transition duration-400 ease-in-out hover:text-white">
           <i class="fab fa-linkedin"></i>
         </a>
-        <a href="" class="text-center transition duration-400 ease-in-out hover:text-white">
+        <a href="https://drive.google.com/file/d/1Z6F-wBMO3iffY8EqHHPXc_ctAi5DKsjX/view?usp=sharing" class="text-center transition duration-400 ease-in-out hover:text-white">
           <i class="fas fa-file-pdf"></i>
         </a>
         <a href="mailto:alexbmoreira@gmail.com" class="text-center transition duration-400 ease-in-out hover:text-white">
