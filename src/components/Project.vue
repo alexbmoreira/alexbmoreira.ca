@@ -10,6 +10,9 @@
                     <a v-if="devpost" :href="devpost" class="text-2xl">
                         <img src="@/assets/images/devpost.png" class="h-6 align-middle">
                     </a>
+                    <a v-if="website" :href="website" class="text-2xl transition duration-400 ease-in-out hover:text-blue-600 cursor-pointer">
+                        <i class="fas fa-link align-top"></i>
+                    </a>
                     <a :href="getGithubLink()" class="text-2xl transition duration-400 ease-in-out hover:text-blue-600">
                         <i class="fab fa-github align-top"></i>
                     </a>
@@ -34,14 +37,15 @@ export default {
     props: {
         name: String,
         desc: String,
-        link: String,
+        git_link: String,
+        website: String,
         stack: Array,
         devpost: String,
         image: String
     },
     methods: {
         getGithubLink() {
-            return `https://github.com/alexbmoreira/${this.link}`
+            return `https://github.com/alexbmoreira/${this.git_link}`
         },
         getProjectImage() {
             return require(`@/assets/images/project_images/${this.image}`)
