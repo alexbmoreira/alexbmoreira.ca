@@ -1,19 +1,19 @@
 <template>
-  <div id='particles-js' class="h-screen"></div>
+  <div id="particles-js" class="h-screen"></div>
 </template>
 
 <script>
-    export default {
-        name: 'ParticlesJS',
-        mounted () {
-            require('particles.js')
-            this.$nextTick(() => {
-            this.initParticlesJS()
-            })
-        },
-        methods: {
-            initParticlesJS () {
-            /* eslint-disable */
+export default {
+  name: "ParticlesJS",
+  mounted() {
+    require("particles.js");
+    this.$nextTick(() => {
+      this.initParticlesJS();
+    });
+  },
+  methods: {
+    initParticlesJS() {
+      /* eslint-disable */
             particlesJS('particles-js', {
                 'particles': {
                 'number': {

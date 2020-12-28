@@ -2,7 +2,7 @@
   <div id="app" class="font-quicksand">
     <Header ref="header" />
     <Navbar ref="navbar" />
-    <Menu :class="{'invisible': !show_menu}" />
+    <Menu :class="{ invisible: !show_menu }" />
     <About />
     <Resume />
     <Portfolio />
@@ -24,7 +24,7 @@ export default {
   data() {
     return {
       show_menu: false
-    }
+    };
   },
   components: {
     Header,
@@ -37,15 +37,15 @@ export default {
   },
   methods: {
     handleScroll() {
-      this.show_menu = (window.pageYOffset >= this.$refs.header.$el.clientHeight)
+      this.show_menu = window.pageYOffset >= this.$refs.header.$el.clientHeight;
     }
   },
   created() {
-    document.addEventListener('scroll', this.handleScroll)
+    document.addEventListener("scroll", this.handleScroll);
   },
   destroyed() {
-    document.removeEventListener('scroll', this.handleScroll)
-  },
+    document.removeEventListener("scroll", this.handleScroll);
+  }
 };
 </script>
 
