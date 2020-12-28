@@ -9,7 +9,7 @@
                 </div>
                 <Project
                 name="alexbmoreira.ca"
-                desc="The website you're on right now! I show it off since it was designed and coded entirely by myself using Vue.js and TailwindCSS. No templates or downloaded code so that I could build on my front-end development skills."
+                desc="This site was designed and built myself using Vue.js and Tailwind. I made it to display the skills and experience on my resume in a more appealing way, as well as to highlight notable personal projects that aren't listed on there."
                 link="alexbmoreira.ca"
                 :stack="[{'name': 'vuejs', 'color': 'text-green-500'},
                 {'name': 'css3-alt', 'color': 'text-blue-400'}]"
