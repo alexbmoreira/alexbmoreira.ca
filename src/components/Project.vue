@@ -20,8 +20,8 @@
 			</div>
 			<p class="text-justify mb-3">{{ desc }}</p>
 			<div class="flex space-x-3">
-				<div v-for="(tech, index) in stack" :key="index" :class="`text-3xl ${tech.color}`">
-					<i :class="`fab fa-${tech.name}`"></i>
+				<div v-for="(tech, index) in stack" :key="index">
+					<i :class="`my-icons ${tech}`"></i>
 				</div>
 			</div>
 		</div>

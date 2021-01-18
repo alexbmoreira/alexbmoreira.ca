@@ -1,0 +1,46 @@
+.my-icons {
+    background: url('../images/css_sprites.png');
+    background-repeat: no-repeat;
+    display: block;
+}
+
+.vue {
+    width: 48px; height: 48px;
+    background-position: -5px -5px;
+}
+
+.django {
+    width: 48px; height: 48px;
+    background-position: -63px -5px;
+}
+
+.postgresql {
+    width: 48px; height: 48px;
+    background-position: -5px -63px;
+}
+
+.python {
+    width: 48px; height: 48px;
+    background-position: -63px -63px;
+}
+
+.tailwindcss {
+    width: 48px; height: 48px;
+    background-position: -121px -5px;
+}
+
+.html {
+    width: 48px; height: 48px;
+    background-position: -121px -63px;
+}
+
+.javascript {
+    width: 48px; height: 48px;
+    background-position: -5px -121px;
+    border-radius: 50%;
+}
+
+.css{
+    width: 48px; height: 48px;
+    background-position: -63px -121px;
+}
