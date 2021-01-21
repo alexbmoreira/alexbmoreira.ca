@@ -19,9 +19,11 @@
 				</div>
 			</div>
 			<p class="text-justify mb-3">{{ desc }}</p>
-			<div class="flex space-x-3">
+			<div class="flex space-x-3 text-3xl">
 				<div v-for="(tech, index) in stack" :key="index">
-					<i :class="`my-icons ${tech}`"></i>
+					<span :class="`icon-${tech.name}`">
+						<span v-for="index in tech.paths" :key="index" :class="`path${index}`"></span>
+					</span>
 				</div>
 			</div>
 		</div>
