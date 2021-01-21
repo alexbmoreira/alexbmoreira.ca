@@ -1,46 +1,124 @@
-.my-icons {
-    background: url('../images/css_sprites.png');
-    background-repeat: no-repeat;
-    display: block;
-}
+@font-face {
+    font-family: 'icomoon';
+    src:  url('../fonts/icomoon.woff');
+    src:  url('../fonts/icomoon.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+  }
+  
+  [class^="icon-"], [class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'icomoon' !important;
+    speak: never;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+  
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  .icon-tailwindcss:before {
+    content: "\e911";
+    color: #06b6d4;
+  }
 
-.vue {
-    width: 24px; height: 24px;
-    background-position: -39px -73px;
-}
+  .icon-css3 .path1:before {
+    content: "\e900";
+    color: rgb(2, 119, 189);
+  }
+  .icon-css3 .path2:before {
+    content: "\e901";
+    margin-left: -1em;
+    color: rgb(3, 155, 229);
+  }
+  .icon-css3 .path3:before {
+    content: "\e902";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+  }
+  .icon-css3 .path4:before {
+    content: "\e903";
+    margin-left: -1em;
+    color: rgb(238, 238, 238);
+  }
 
-.django {
-    width: 24px; height: 24px;
-    background-position: -39px -5px;
-}
+  .icon-django:before {
+    content: "\e904";
+    color: #0c4b33;
+  }
 
-.postgresql {
-    width: 24px; height: 24px;
-    background-position: -73px -5px;
-}
+  .icon-html5 .path1:before {
+    content: "\e905";
+    color: rgb(230, 81, 0);
+  }
+  .icon-html5 .path2:before {
+    content: "\e906";
+    margin-left: -1em;
+    color: rgb(255, 109, 0);
+  }
+  .icon-html5 .path3:before {
+    content: "\e907";
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+  }
+  .icon-html5 .path4:before {
+    content: "\e908";
+    margin-left: -1em;
+    color: rgb(238, 238, 238);
+  }
 
-.python {
-    width: 24px; height: 24px;
-    background-position: -73px -39px;
-}
+  .icon-javascript .path1:before {
+    content: "\e909";
+    color: rgb(255, 214, 0);
+  }
+  .icon-javascript .path2:before {
+    content: "\e90a";
+    margin-left: -1em;
+    color: rgb(0, 0, 1);
+  }
 
-.tailwindcss {
-    width: 24px; height: 24px;
-    background-position: -5px -73px;
-}
+  .icon-postgresql .path1:before {
+    content: "\e90b";
+    color: rgb(255, 255, 255);
+  }
+  .icon-postgresql .path2:before {
+    content: "\e90c";
+    margin-left: -1em;
+    color: rgb(2, 119, 189);
+  }
+  .icon-postgresql .path3:before {
+    content: "\e90d";
+    margin-left: -1em;
+    color: rgb(2, 119, 189);
+  }
+  .icon-postgresql .path4:before {
+    content: "\e90e";
+    margin-left: -1em;
+    color: rgb(2, 119, 189);
+  }
 
-.html {
-    width: 24px; height: 24px;
-    background-position: -5px -39px;
-}
+  .icon-python .path1:before {
+    content: "\e90f";
+    color: rgb(2, 119, 189);
+  }
+  .icon-python .path2:before {
+    content: "\e910";
+    margin-left: -1em;
+    color: rgb(255, 193, 7);
+  }
 
-.javascript {
-    width: 24px; height: 24px;
-    background-position: -39px -39px;
-    border-radius: 50%;
-}
-
-.css{
-    width: 24px; height: 24px;
-    background-position: -5px -5px;
-}
+  .icon-vue .path1:before {
+    content: "\e912";
+    color: rgb(129, 199, 132);
+  }
+  .icon-vue .path2:before {
+    content: "\e913";
+    margin-left: -1em;
+    color: rgb(69, 90, 100);
+  }
+  
