@@ -34,6 +34,15 @@
             {'name': 'css3', 'paths': 4}]"
             image="filler.jpg" />
         <Project
+            name="Movie Matcher"
+            desc="A work-in-progress webapp created by myself and a friend with which one can create a watchlist, add friends, and consult the app for what to watch with those friends. The app will provide a swiping interface--not unlike that of most dating apps--that will cycle through the watchlists of you and a friend and notify both when you match. Gone are the days of spending hours deciding on a movie! Once it's launched, that is..."
+            github_link="movie-match"
+            :stack="[{'name': 'python', 'paths': 2},
+            {'name': 'django', 'paths': 0},
+            {'name': 'vue', 'paths': 2},
+            {'name': 'tailwindcss', 'paths': 0},
+            {'name': 'postgresql', 'paths': 4}]" />
+        <Project
             name="Namaste"
             desc="A simple yoga sequence builder put together over a weekend for the 2020 Winter Hacklympics hackathon. Coded with a partner in Django and Vue.js."
             github_link="yoga-app"
