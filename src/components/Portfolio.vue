@@ -47,6 +47,7 @@
             name="Namaste"
             desc="A simple yoga sequence builder put together over a weekend for the 2020 Winter Hacklympics hackathon. Coded with a partner in Django and Vue.js."
             github_link="yoga-app"
+            website="https://namaste-22f27.web.app/"
             devpost="https://devpost.com/software/namaste-q1j6gk"
             :stack="[{'name': 'python', 'paths': 2},
             {'name': 'django', 'paths': 0},
