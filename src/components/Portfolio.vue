@@ -39,9 +39,9 @@
             github_link="movie-match"
             :stack="[{'name': 'python', 'paths': 2},
             {'name': 'django', 'paths': 0},
+            {'name': 'postgresql', 'paths': 4},
             {'name': 'vue', 'paths': 2},
-            {'name': 'tailwindcss', 'paths': 0},
-            {'name': 'postgresql', 'paths': 4}]"
+            {'name': 'tailwindcss', 'paths': 0}]"
             image="moviematch.jpg"  />
         <Project
             name="Namaste"
@@ -51,9 +51,9 @@
             devpost="https://devpost.com/software/namaste-q1j6gk"
             :stack="[{'name': 'python', 'paths': 2},
             {'name': 'django', 'paths': 0},
+            {'name': 'postgresql', 'paths': 4},
             {'name': 'vue', 'paths': 2},
-            {'name': 'css3', 'paths': 4},
-            {'name': 'postgresql', 'paths': 4}]"
+            {'name': 'css3', 'paths': 4}]"
             image="namaste.jpg" />
       </div>
     </div>
