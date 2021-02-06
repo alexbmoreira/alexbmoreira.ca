@@ -25,7 +25,7 @@
             image="alexbmoreira.jpg" />
         <Project
             name="Filler"
-            desc="A clone of the iOS GamePigeon Filler game. My sister loves playing this game with her friends over iMessage, so I made a version online that she could play when none of her friends can."
+            desc="Web app clone of the GamePigeon iMessage game made with Python and Flask. It's my sister's favorite game and she wanted a version to play when her friends aren't available. It's played against a computer which will algorithmically make the best move each time."
             github_link="filler"
             website="https://playfiller.herokuapp.com/"
             :stack="[{'name': 'python', 'paths': 2},
