@@ -22,11 +22,20 @@
 				</div>
 			</div>
 			<p class="text-justify mb-3">{{ desc }}</p>
-			<div class="flex space-x-3 text-3xl">
-				<div v-for="(tech, index) in stack" :key="index">
-					<span :class="`icon-${tech.name}`">
-						<span v-for="index in tech.paths" :key="index" :class="`path${index}`"></span>
-					</span>
+			<div class="flex justify-between sm:flex-col sm:justify-start">
+				<div class="flex space-x-3 text-3xl">
+					<div v-for="(tech, index) in stack" :key="index">
+						<span :class="`icon-${tech.name}`">
+							<span v-for="index in tech.paths" :key="index" :class="`path${index}`"></span>
+						</span>
+					</div>
+				</div>
+				<div class="flex space-x-3 text-3xl">
+					<div v-for="(host, index) in deploy" :key="index">
+						<span :class="`icon-${host.name}`">
+							<span v-for="index in host.paths" :key="index" :class="`path${index}`"></span>
+						</span>
+					</div>
 				</div>
 			</div>
 		</div>
@@ -45,6 +54,7 @@
             github_link: String,
             website: String,
 			stack: Array,
+			deploy: Array,
 			devpost: String,
 			image: String,
 		},

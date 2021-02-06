@@ -22,6 +22,7 @@
             github_link="alexbmoreira.ca"
             :stack="[{'name': 'vue', 'paths': 2},
             {'name': 'tailwindcss', 'paths': 0}]"
+            :deploy="[{'name': 'firebase', 'paths': 4}]"
             image="alexbmoreira.jpg" />
         <Project
             name="Filler"
@@ -32,6 +33,7 @@
             {'name': 'javascript', 'paths': 2},
             {'name': 'html5', 'paths': 4},
             {'name': 'css3', 'paths': 4}]"
+            :deploy="[{'name': 'heroku', 'paths': 2}]"
             image="filler.jpg" />
         <Project
             name="Movie Matching App"
@@ -54,6 +56,8 @@
             {'name': 'postgresql', 'paths': 4},
             {'name': 'vue', 'paths': 2},
             {'name': 'css3', 'paths': 4}]"
+            :deploy="[{'name': 'heroku', 'paths': 2},
+            {'name': 'firebase', 'paths': 4}]"
             image="namaste.jpg" />
       </div>
     </div>

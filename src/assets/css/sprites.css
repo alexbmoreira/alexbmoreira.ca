@@ -1,124 +1,144 @@
 @font-face {
-    font-family: 'icomoon';
-    src:  url('../fonts/icomoon.woff');
-    src:  url('../fonts/icomoon.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-    font-display: block;
-  }
-  
-  [class^="icon-"], [class*=" icon-"] {
-    /* use !important to prevent issues with browser extensions that change fonts */
-    font-family: 'icomoon' !important;
-    speak: never;
-    font-style: normal;
-    font-weight: normal;
-    font-variant: normal;
-    text-transform: none;
-    line-height: 1;
-  
-    /* Better Font Rendering =========== */
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-  }
-  
-  .icon-tailwindcss:before {
-    content: "\e911";
-    color: #06b6d4;
-  }
+  font-family: 'icomoon';
+  src:  url('../fonts/icomoon.woff');
+  src:  url('../fonts/icomoon.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
 
-  .icon-css3 .path1:before {
-    content: "\e900";
-    color: rgb(2, 119, 189);
-  }
-  .icon-css3 .path2:before {
-    content: "\e901";
-    margin-left: -1em;
-    color: rgb(3, 155, 229);
-  }
-  .icon-css3 .path3:before {
-    content: "\e902";
-    margin-left: -1em;
-    color: rgb(255, 255, 255);
-  }
-  .icon-css3 .path4:before {
-    content: "\e903";
-    margin-left: -1em;
-    color: rgb(238, 238, 238);
-  }
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
 
-  .icon-django:before {
-    content: "\e904";
-    color: #0c4b33;
-  }
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
 
-  .icon-html5 .path1:before {
-    content: "\e905";
-    color: rgb(230, 81, 0);
-  }
-  .icon-html5 .path2:before {
-    content: "\e906";
-    margin-left: -1em;
-    color: rgb(255, 109, 0);
-  }
-  .icon-html5 .path3:before {
-    content: "\e907";
-    margin-left: -1em;
-    color: rgb(255, 255, 255);
-  }
-  .icon-html5 .path4:before {
-    content: "\e908";
-    margin-left: -1em;
-    color: rgb(238, 238, 238);
-  }
-
-  .icon-javascript .path1:before {
-    content: "\e909";
-    color: rgb(255, 214, 0);
-  }
-  .icon-javascript .path2:before {
-    content: "\e90a";
-    margin-left: -1em;
-    color: rgb(0, 0, 1);
-  }
-
-  .icon-postgresql .path1:before {
-    content: "\e90b";
-    color: rgb(255, 255, 255);
-  }
-  .icon-postgresql .path2:before {
-    content: "\e90c";
-    margin-left: -1em;
-    color: rgb(2, 119, 189);
-  }
-  .icon-postgresql .path3:before {
-    content: "\e90d";
-    margin-left: -1em;
-    color: rgb(2, 119, 189);
-  }
-  .icon-postgresql .path4:before {
-    content: "\e90e";
-    margin-left: -1em;
-    color: rgb(2, 119, 189);
-  }
-
-  .icon-python .path1:before {
-    content: "\e90f";
-    color: rgb(2, 119, 189);
-  }
-  .icon-python .path2:before {
-    content: "\e910";
-    margin-left: -1em;
-    color: rgb(255, 193, 7);
-  }
-
-  .icon-vue .path1:before {
-    content: "\e912";
-    color: rgb(129, 199, 132);
-  }
-  .icon-vue .path2:before {
-    content: "\e913";
-    margin-left: -1em;
-    color: rgb(69, 90, 100);
-  }
-  
+.icon-firebase .path1:before {
+  content: "\e914";
+  color: rgb(255, 143, 0);
+}
+.icon-firebase .path2:before {
+  content: "\e915";
+  margin-left: -1em;
+  color: rgb(255, 160, 0);
+}
+.icon-firebase .path3:before {
+  content: "\e916";
+  margin-left: -1em;
+  color: rgb(255, 111, 0);
+}
+.icon-firebase .path4:before {
+  content: "\e917";
+  margin-left: -1em;
+  color: rgb(255, 196, 0);
+}
+.icon-heroku .path1:before {
+  content: "\e918";
+  color: rgb(126, 87, 194);
+}
+.icon-heroku .path2:before {
+  content: "\e919";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-tailwindcss:before {
+  content: "\e911";
+  color: #06b6d4;
+}
+.icon-css3 .path1:before {
+  content: "\e900";
+  color: rgb(2, 119, 189);
+}
+.icon-css3 .path2:before {
+  content: "\e901";
+  margin-left: -1em;
+  color: rgb(3, 155, 229);
+}
+.icon-css3 .path3:before {
+  content: "\e902";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-css3 .path4:before {
+  content: "\e903";
+  margin-left: -1em;
+  color: rgb(238, 238, 238);
+}
+.icon-django:before {
+  content: "\e904";
+  color: #0c4b33;
+}
+.icon-html5 .path1:before {
+  content: "\e905";
+  color: rgb(230, 81, 0);
+}
+.icon-html5 .path2:before {
+  content: "\e906";
+  margin-left: -1em;
+  color: rgb(255, 109, 0);
+}
+.icon-html5 .path3:before {
+  content: "\e907";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-html5 .path4:before {
+  content: "\e908";
+  margin-left: -1em;
+  color: rgb(238, 238, 238);
+}
+.icon-javascript .path1:before {
+  content: "\e909";
+  color: rgb(255, 214, 0);
+}
+.icon-javascript .path2:before {
+  content: "\e90a";
+  margin-left: -1em;
+  color: rgb(0, 0, 1);
+}
+.icon-postgresql .path1:before {
+  content: "\e90b";
+  color: rgb(255, 255, 255);
+}
+.icon-postgresql .path2:before {
+  content: "\e90c";
+  margin-left: -1em;
+  color: rgb(2, 119, 189);
+}
+.icon-postgresql .path3:before {
+  content: "\e90d";
+  margin-left: -1em;
+  color: rgb(2, 119, 189);
+}
+.icon-postgresql .path4:before {
+  content: "\e90e";
+  margin-left: -1em;
+  color: rgb(2, 119, 189);
+}
+.icon-python .path1:before {
+  content: "\e90f";
+  color: rgb(2, 119, 189);
+}
+.icon-python .path2:before {
+  content: "\e910";
+  margin-left: -1em;
+  color: rgb(255, 193, 7);
+}
+.icon-vue .path1:before {
+  content: "\e912";
+  color: rgb(129, 199, 132);
+}
+.icon-vue .path2:before {
+  content: "\e913";
+  margin-left: -1em;
+  color: rgb(69, 90, 100);
+}
