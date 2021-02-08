@@ -10,25 +10,25 @@
         <div class="pl-6 md:px-6 md:mx-auto">
           <Term
             org="Superior Glove"
-            role="Software Developer (.NET)"
+            role="Software Developer Co-op (.NET)"
             time="May. 2020 – Aug. 2020"
             image="superior_glove.png"
             :notes="[
-              'Took the lead on creating a custom MRP solution in C# using WPF and other .NET libraries and frameworks.',
+              'Took the lead on a 4-month project creating a custom MRP solution in C# using WPF and other .NET libraries and frameworks.',
               'Wrote complex SQL procedures with Microsoft SQL Server.',
-              'Managed help desk tickets using Jira.',
-              'Worked in a corporate environment for a fast-moving organization requiring agile thinking and the ability to adapt to a multitude of scenarios.'
+              'Managed help desk tickets for over 200 employees using Jira.',
+              'Engaged in daily scrum meetings with a development team of 7 people to discuss project development.'
             ]"
           />
           <Term
             org="Welbilt Inc."
-            role="Buyer / Planner Intern"
+            role="Buyer/Planner Intern"
             time="May. 2019 – Aug. 2019"
             image="welbilt.png"
             :notes="[
-              'Worked in QAD to manage supplier schedules and set firm days and lead times for parts.',
-              'Communicated with suppliers about expediting orders and advising on past-dues, as well as sending out steel and cardboard consignment releases.',
-              'Used QAD and Excel to schedule welding and production lines.'
+              'Automated supplier scheduling and increased efficiency of the purchasing department by 20%.',
+              'Communicated daily with suppliers about expediting orders and advising on past-dues, as well as sending out steel and cardboard consignment releases.',
+              'Scheduled welding and production lines using QAD and Excel.'
             ]"
           />
           <Term
@@ -44,9 +44,7 @@
           />
         </div>
         <div id="education" class="mx-auto py-8">
-          <span class="font-bold text-3xl border-b-2 border-gray-400"
-            >Education</span
-          >
+          <span class="font-bold text-3xl border-b-2 border-gray-400">Education</span>
         </div>
         <div class="pl-6 md:px-6 md:mx-auto">
           <Term
