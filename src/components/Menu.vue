@@ -15,26 +15,26 @@
           :class="{ 'opacity-100': expand }"
           class="flex flex-col space-y-2 opacity-0 transition delay-100 duration-300 ease-in-out"
         >
-          <a href="#about" @click="clickMenu()"
-            ><span class="cursor-pointer text-white text-lg hover:text-blue-600"
-              >About</span
-            ></a
-          >
-          <a href="#experience" @click="clickMenu()"
-            ><span class="cursor-pointer text-white text-lg hover:text-blue-600"
-              >Experience</span
-            ></a
-          >
-          <a href="#education" @click="clickMenu()"
-            ><span class="cursor-pointer text-white text-lg hover:text-blue-600"
-              >Education</span
-            ></a
-          >
-          <a href="#portfolio" @click="clickMenu()"
-            ><span class="cursor-pointer text-white text-lg hover:text-blue-600"
-              >Portfolio</span
-            ></a
-          >
+          <a href="#about" @click="clickMenu()">
+            <span class="cursor-pointer text-white text-lg hover:text-blue-600">
+              About
+            </span>
+          </a>
+          <a href="#experience" @click="clickMenu()">
+            <span class="cursor-pointer text-white text-lg hover:text-blue-600">
+              Experience
+            </span>
+          </a>
+          <a href="#education" @click="clickMenu()">
+            <span class="cursor-pointer text-white text-lg hover:text-blue-600">
+              Education
+            </span>
+          </a>
+          <a href="#portfolio" @click="clickMenu()">
+            <span class="cursor-pointer text-white text-lg hover:text-blue-600">
+              Portfolio
+            </span>
+          </a>
         </div>
       </div>
     </div>
