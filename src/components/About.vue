@@ -11,24 +11,25 @@
             A 2021 computer science graduate from the University of Guelph who
             embraces challenges in programming and has a strong passion for the
             realm of information technology. Has been programming for over 7
-            years, in C, Python, Javascript, and Java, with industry experience
-            working in C# and SQL.
+            years, in C, Python, and Java, with industry experience working in
+            Ruby/Rails and React.
           </p>
           <h1 class="text-2xl font-bold text-white pt-3">Contact</h1>
           <div class="flex flex-col text-gray-400">
-            <a href="mailto:alexbmoreira@gmail.com"
-              ><span
+            <a href="mailto:alexbmoreira@gmail.com">
+              <span
                 class="transition duration-400 ease-in-out hover:text-white"
-                ><i class="fas fa-envelope mr-2"></i
-                >alexbmoreira@gmail.com</span
-              ></a
-            >
-            <a href="tel:+14164336886"
-              ><span
+              >
+                <i class="fas fa-envelope mr-2"></i>alexbmoreira@gmail.com
+              </span>
+            </a>
+            <a href="tel:+14164336886">
+              <span
                 class="transition duration-400 ease-in-out hover:text-white"
-                ><i class="fas fa-phone-alt mr-2"></i>(416) 433-6886</span
-              ></a
-            >
+              >
+                <i class="fas fa-phone-alt mr-2"></i>(416) 433-6886
+              </span>
+            </a>
           </div>
         </div>
       </div>
