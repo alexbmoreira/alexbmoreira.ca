@@ -14,8 +14,7 @@ const work_terms = [
     notes: [
       "Took the lead on a 4-month project creating a custom MRP solution in C# using WPF and other .NET libraries and frameworks.",
       "Wrote complex SQL procedures with Microsoft SQL Server.",
-      "Managed help desk tickets for over 200 employees using Jira.",
-      "Engaged in daily scrum meetings with a development team of 7 people to discuss project development."
+      "Managed help desk tickets for over 200 employees using Jira."
     ]
   },
   {
