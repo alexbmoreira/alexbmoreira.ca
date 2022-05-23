@@ -36,7 +36,7 @@
 
 <script>
 import Project from "./Project";
-import projects from "../api/projects";
+import projects from "@/api/projects";
 
 export default {
   name: "Portfolio",

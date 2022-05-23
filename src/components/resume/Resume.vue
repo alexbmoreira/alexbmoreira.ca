@@ -39,7 +39,7 @@
 
 <script>
 import Term from "./Term";
-import work_terms from "../api/work_terms";
+import work_terms from "@/api/work_terms";
 
 export default {
   name: "Resume",

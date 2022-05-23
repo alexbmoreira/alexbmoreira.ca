@@ -11,13 +11,13 @@
 </template>
 
 <script>
-import Header from "./components/Header";
-import Navbar from "./components/Navbar";
-import Menu from "./components/Menu";
-import About from "./components/About";
-import Resume from "./components/Resume";
-import Portfolio from "./components/Portfolio";
-import Footer from "./components/Footer";
+import Header from "./components/header/Header";
+import Navbar from "./components/navbar/Navbar";
+import Menu from "./components/menu/Menu";
+import About from "./components/about/About";
+import Resume from "./components/resume/Resume";
+import Portfolio from "./components/portfolio/Portfolio";
+import Footer from "./components/footer/Footer";
 
 export default {
   name: "App",
