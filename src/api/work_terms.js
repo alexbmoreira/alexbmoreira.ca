@@ -1,4 +1,4 @@
-const work_terms = [
+const workTerms = [
   {
     org: "Collage HR",
     role: "Junior Software Developer",
@@ -41,4 +41,4 @@ const work_terms = [
   }
 ];
 
-export default work_terms;
+export default workTerms;
