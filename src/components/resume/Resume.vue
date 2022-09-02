@@ -29,7 +29,7 @@
           <Term
             org="University of Guelph"
             role="Bachelor of Computer Science, Honors"
-            time="Sept. 2017 Apr. 2021"
+            time="Sep 2017 - Apr 2021"
             image="uoguelph.jpg"
             :notes="['Emphasis in Mathematical Science']"
           />
