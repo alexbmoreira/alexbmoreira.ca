@@ -20,7 +20,10 @@
         </div>
       </div>
     </div>
-    <div v-show="!collapsed">
+    <div
+      :class="{ 'scale-y-0 max-h-0': collapsed, 'max-h-screen': !collapsed }"
+      class="overflow-hidden transform transition-all origin-top delay-100 duration-300 ease-in-out"
+    >
       <ul>
         <li v-for="(note, index) in notes" :key="index">• {{ note }}</li>
       </ul>
