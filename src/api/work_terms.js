@@ -1,7 +1,7 @@
 const workTerms = [
   {
     org: "Collage HR",
-    role: "Junior Software Developer",
+    role: "Software Developer",
     time: "May 2021 - Present",
     image: "collage_hr.png",
     notes: []
