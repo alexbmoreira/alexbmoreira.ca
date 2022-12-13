@@ -8,11 +8,13 @@
         <div class="pl-6 flex flex-col w-5/6 md:pl-0 md:w-full">
           <h1 class="text-2xl font-bold text-white">About Me</h1>
           <p class="text-gray-400 text-justify">
-            A 2021 computer science graduate from the University of Guelph who
-            embraces challenges in programming and has a strong passion for the
-            realm of information technology. Has been programming for over 7
-            years, in C, Python, and Java, with industry experience working in
-            Ruby/Rails and React.
+            As a software developer with 2 years of experience working in Ruby
+            on Rails and React, I've built a strong foundation in modern web
+            both front-end and back-end development. I am passionate about
+            computing and am always looking for ways to improve and expand my
+            knowledge and skills. In my current role, I have been able to
+            successfully develop and deliver on a number of complex projects,
+            and I am excited to continue learing and growing in my field.
           </p>
           <h1 class="text-2xl font-bold text-white pt-3">Contact</h1>
           <div class="flex flex-col text-gray-400">
