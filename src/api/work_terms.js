@@ -4,7 +4,12 @@ const workTerms = [
     role: "Software Developer",
     time: "May 2021 - Present",
     image: "collage_hr.png",
-    notes: []
+    notes: [
+      "Developed, tested, and implemented solutions to complex problems using Ruby on Rails and React.",
+      "Contributed to the agile development process as part of a team of developers, actively participating in daily scrum meetings and weekly grooming and sprint planning sessions.",
+      "Conducted individual code reviews, to proactively identify and address potential bugs and perpetuate high code quality.",
+      "Managed and resolved a high volume of support requests and technical issues for over 7000 clients."
+    ]
   },
   {
     org: "Superior Glove",
@@ -12,7 +17,7 @@ const workTerms = [
     time: "May 2020 - Aug 2020",
     image: "superior_glove.png",
     notes: [
-      "Took the lead on a 4-month project creating a custom MRP solution in C# using WPF and other .NET libraries and frameworks.",
+      "Took the lead on a 4-month project creating a custom MRP solution in C# using WPF and other .NET libraries.",
       "Wrote complex SQL procedures with Microsoft SQL Server.",
       "Managed help desk tickets for over 200 employees using Jira."
     ]

@@ -10,17 +10,53 @@ const projects = [
         paths: 2
       },
       {
-        name: "tailwindcss",
+        name: "tailwind",
         paths: 0
       }
     ],
     deploy: [
       {
         name: "firebase",
-        paths: 4
+        paths: 5
       }
     ],
     image: "alexbmoreira.jpg"
+  },
+  {
+    name: "Two's Company Cookbook",
+    desc:
+      "A personal cookbook site I created with Rails and React, designed as my go-to platform for viewing my collection of personal recipes. For added functionality, there's a sign-up feature that lets me add notes to each recipe, making it easier to jot down tweaks or tips each I make it. Best viewed on mobile.",
+    github_link: "cookbook-site",
+    website: "https://twoscompanycookbook.com/",
+    stack: [
+      {
+        name: "ruby",
+        paths: 0
+      },
+      {
+        name: "rails",
+        paths: 0
+      },
+      {
+        name: "postgres",
+        paths: 0
+      },
+      {
+        name: "tailwind",
+        paths: 0
+      }
+    ],
+    deploy: [
+      {
+        name: "heroku",
+        paths: 0
+      },
+      {
+        name: "firebase",
+        paths: 5
+      }
+    ],
+    image: "twos-company-cookbook.jpg"
   },
   {
     name: "Filler",
@@ -31,25 +67,13 @@ const projects = [
     stack: [
       {
         name: "python",
-        paths: 2
-      },
-      {
-        name: "javascript",
-        paths: 2
-      },
-      {
-        name: "html5",
-        paths: 4
-      },
-      {
-        name: "css3",
-        paths: 4
+        paths: 3
       }
     ],
     deploy: [
       {
         name: "heroku",
-        paths: 2
+        paths: 0
       }
     ],
     image: "filler.jpg"
@@ -57,72 +81,27 @@ const projects = [
   {
     name: "Movie Matching App",
     desc:
-      "A work-in-progress web app that will allow users to add their friends, as well as search for and add movies to a watchlist. The app will decide what to watch with their friends based on matches from a swipeable UI not unlike most dating apps.",
+      "A social film app that transforms the often daunting task of deciding what movie to watch into a seamless process. Users curate personal watchlists and, using a Tinder-style interface, can match with friends on a mutual film choice for their next movie night.",
     github_link: "movie-match",
     stack: [
       {
-        name: "python",
-        paths: 2
-      },
-      {
-        name: "django",
+        name: "ruby",
         paths: 0
       },
       {
-        name: "postgresql",
-        paths: 4
+        name: "rails",
+        paths: 0
       },
       {
-        name: "vue",
-        paths: 2
+        name: "postgres",
+        paths: 0
       },
       {
-        name: "tailwindcss",
+        name: "react",
         paths: 0
       }
     ],
     image: "moviematch.jpg"
-  },
-  {
-    name: "Namaste",
-    desc:
-      "A simple yoga sequence builder put together over a weekend for the 2020 Winter Hacklympics hackathon. Coded with a partner in Django and Vue.js.",
-    github_link: "yoga-app",
-    website: "https://namaste-22f27.web.app/",
-    devpost: "https://devpost.com/software/namaste-q1j6gk",
-    stack: [
-      {
-        name: "python",
-        paths: 2
-      },
-      {
-        name: "django",
-        paths: 0
-      },
-      {
-        name: "postgresql",
-        paths: 4
-      },
-      {
-        name: "vue",
-        paths: 2
-      },
-      {
-        name: "css3",
-        paths: 4
-      }
-    ],
-    deploy: [
-      {
-        name: "heroku",
-        paths: 2
-      },
-      {
-        name: "firebase",
-        paths: 4
-      }
-    ],
-    image: "namaste.jpg"
   }
 ];
 

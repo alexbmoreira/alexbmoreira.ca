@@ -30,7 +30,7 @@
       </div>
       <p class="text-justify mb-3">{{ desc }}</p>
       <div class="flex justify-between sm:flex-col sm:justify-start">
-        <div class="flex space-x-3 text-3xl">
+        <div class="flex space-x-3 text-2xl">
           <div v-for="(tech, index) in stack" :key="index">
             <span :class="`icon-${tech.name}`">
               <span
@@ -41,7 +41,7 @@
             </span>
           </div>
         </div>
-        <div class="flex space-x-3 text-3xl">
+        <div class="flex space-x-3 text-2xl">
           <div v-for="(host, index) in deploy" :key="index">
             <span :class="`icon-${host.name}`">
               <span

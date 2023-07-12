@@ -22,123 +22,88 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.icon-firebase .path1:before {
-  content: "\e914";
-  color: rgb(255, 143, 0);
+.icon-postgres:before {
+  content: "\e908";
+  color: #30648c;
 }
-.icon-firebase .path2:before {
-  content: "\e915";
-  margin-left: -1em;
-  color: rgb(255, 160, 0);
-}
-.icon-firebase .path3:before {
-  content: "\e916";
-  margin-left: -1em;
-  color: rgb(255, 111, 0);
-}
-.icon-firebase .path4:before {
-  content: "\e917";
-  margin-left: -1em;
-  color: rgb(255, 196, 0);
-}
-.icon-heroku .path1:before {
-  content: "\e918";
-  color: rgb(126, 87, 194);
-}
-.icon-heroku .path2:before {
-  content: "\e919";
-  margin-left: -1em;
-  color: rgb(255, 255, 255);
-}
-.icon-tailwindcss:before {
-  content: "\e911";
-  color: #06b6d4;
-}
-.icon-css3 .path1:before {
-  content: "\e900";
-  color: rgb(2, 119, 189);
-}
-.icon-css3 .path2:before {
-  content: "\e901";
-  margin-left: -1em;
-  color: rgb(3, 155, 229);
-}
-.icon-css3 .path3:before {
-  content: "\e902";
-  margin-left: -1em;
-  color: rgb(255, 255, 255);
-}
-.icon-css3 .path4:before {
-  content: "\e903";
-  margin-left: -1em;
-  color: rgb(238, 238, 238);
+.icon-react:before {
+  content: "\e909";
+  color: #53c1de;
 }
 .icon-django:before {
+  content: "\e900";
+  color: #44b78b;
+}
+.icon-firebase .path1:before {
+  content: "\e901";
+  color: rgb(255, 194, 74);
+}
+.icon-firebase .path2:before {
+  content: "\e902";
+  margin-left: -1em;
+  color: rgb(244, 189, 98);
+}
+.icon-firebase .path3:before {
+  content: "\e903";
+  margin-left: -1em;
+  color: rgb(246, 130, 12);
+}
+.icon-firebase .path4:before {
   content: "\e904";
-  color: #0c4b33;
+  margin-left: -1em;
+  color: rgb(253, 224, 104);
 }
-.icon-html5 .path1:before {
+.icon-firebase .path5:before {
   content: "\e905";
-  color: rgb(230, 81, 0);
+  margin-left: -1em;
+  color: rgb(252, 202, 63);
 }
-.icon-html5 .path2:before {
+.icon-firebase .path6:before {
   content: "\e906";
   margin-left: -1em;
-  color: rgb(255, 109, 0);
+  color: rgb(238, 171, 55);
 }
-.icon-html5 .path3:before {
+.icon-heroku:before {
   content: "\e907";
-  margin-left: -1em;
-  color: rgb(255, 255, 255);
-}
-.icon-html5 .path4:before {
-  content: "\e908";
-  margin-left: -1em;
-  color: rgb(238, 238, 238);
-}
-.icon-javascript .path1:before {
-  content: "\e909";
-  color: rgb(255, 214, 0);
-}
-.icon-javascript .path2:before {
-  content: "\e90a";
-  margin-left: -1em;
-  color: rgb(0, 0, 1);
-}
-.icon-postgresql .path1:before {
-  content: "\e90b";
-  color: rgb(255, 255, 255);
-}
-.icon-postgresql .path2:before {
-  content: "\e90c";
-  margin-left: -1em;
-  color: rgb(2, 119, 189);
-}
-.icon-postgresql .path3:before {
-  content: "\e90d";
-  margin-left: -1em;
-  color: rgb(2, 119, 189);
-}
-.icon-postgresql .path4:before {
-  content: "\e90e";
-  margin-left: -1em;
-  color: rgb(2, 119, 189);
+  color: #430098;
 }
 .icon-python .path1:before {
-  content: "\e90f";
-  color: rgb(2, 119, 189);
+  content: "\e913";
+  color: rgb(56, 126, 184);
 }
 .icon-python .path2:before {
-  content: "\e910";
+  content: "\e914";
   margin-left: -1em;
-  color: rgb(255, 193, 7);
+  color: rgb(255, 195, 49);
+}
+.icon-python .path3:before {
+  content: "\e915";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-python .path4:before {
+  content: "\e916";
+  margin-left: -1em;
+  color: rgb(255, 255, 255);
+}
+.icon-rails:before {
+  content: "\e917";
+  color: #c00;
+}
+.icon-ruby:before {
+  content: "\e919";
+  color: #d91404;
+}
+.icon-tailwind:before {
+  content: "\e91a";
+  color: #07b6d5;
 }
 .icon-vue .path1:before {
-  content: "\e912";
-  color: rgb(129, 199, 132);
+  content: "\e91b";
+  color: rgb(65, 184, 131);
 }
 .icon-vue .path2:before {
-  content: "\e913";
+  content: "\e91c";
   margin-left: -1em;
-  color: rgb(69, 90, 100);
+  color: rgb(52, 73, 94);
 }
