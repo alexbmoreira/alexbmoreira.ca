@@ -21,7 +21,7 @@
         :name="project.name"
         :desc="project.desc"
         :github_link="project.github_link"
-        :webiste="project.webiste"
+        :website="project.website"
         :devpost="project.devpost"
         :stack="project.stack"
         :deploy="project.deploy"
