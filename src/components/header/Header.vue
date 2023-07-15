@@ -21,7 +21,7 @@
           <p class="text-xs">LinkedIn</p>
         </a>
         <a
-          href="https://drive.google.com/file/d/1Z6F-wBMO3iffY8EqHHPXc_ctAi5DKsjX/view?usp=sharing"
+          href="https://storage.googleapis.com/alexbmoreira-site/Alex_Moreira_Resume.pdf"
           class="text-center transition duration-400 ease-in-out hover:text-blue-600 z-10"
         >
           <i class="fas fa-file-pdf"></i>
