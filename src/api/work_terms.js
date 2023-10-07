@@ -8,7 +8,7 @@ const workTerms = [
       "Developed, tested, and implemented solutions to complex problems using Ruby on Rails and React.",
       "Contributed to the agile development process as part of a team of developers, actively participating in daily scrum meetings and weekly grooming and sprint planning sessions.",
       "Conducted individual code reviews, to proactively identify and address potential bugs and perpetuate high code quality.",
-      "Managed and resolved a high volume of support requests and technical issues for over 7000 clients."
+      "Managed and resolved a high volume of support requests and technical issues for over 700 clients."
     ]
   },
   {

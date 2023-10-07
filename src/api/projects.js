@@ -1,27 +1,27 @@
 const projects = [
-  {
-    name: "alexbmoreira.ca",
-    desc:
-      "This site was designed and built myself using Vue.js and Tailwind. I made it to display the skills and experience on my resume in a more appealing way, as well as to highlight notable personal projects that aren't listed on there.",
-    github_link: "alexbmoreira.ca",
-    stack: [
-      {
-        name: "vue",
-        paths: 2
-      },
-      {
-        name: "tailwind",
-        paths: 0
-      }
-    ],
-    deploy: [
-      {
-        name: "firebase",
-        paths: 5
-      }
-    ],
-    image: "alexbmoreira.jpg"
-  },
+  // {
+  //   name: "alexbmoreira.ca",
+  //   desc:
+  //     "This site was designed and built myself using Vue.js and Tailwind. I made it to display the skills and experience on my resume in a more appealing way, as well as to highlight notable personal projects that aren't listed on there.",
+  //   github_link: "alexbmoreira.ca",
+  //   stack: [
+  //     {
+  //       name: "vue",
+  //       paths: 2
+  //     },
+  //     {
+  //       name: "tailwind",
+  //       paths: 0
+  //     }
+  //   ],
+  //   deploy: [
+  //     {
+  //       name: "firebase",
+  //       paths: 5
+  //     }
+  //   ],
+  //   image: "alexbmoreira.jpg"
+  // },
   {
     name: "Two's Company Cookbook",
     desc:
