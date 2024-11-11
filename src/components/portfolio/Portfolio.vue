@@ -1,16 +1,17 @@
 <template>
-  <div id="portfolio" class="bg-gray-200 flex">
+  <div id="portfolio" class="bg-platinum flex">
     <div class="flex p-8 px-64 xl:px-24 md:px-12 flex-col sm:px-6">
       <div class="mx-auto mb-8 text-center">
-        <span class="font-bold text-3xl border-b-2 border-gray-400">
+        <span class="font-bold text-3xl border-b-2 border-steel">
           Portfolio
         </span>
         <p class="mt-3">A small collection of notable personal projects.</p>
         <p>
           For more, check out my
           <a
-            class="text-blue-500 hover:underline"
+            class="text-cornflower hover:underline"
             href="https://github.com/alexbmoreira"
+            target="_blank"
           >
             Github!
           </a>
@@ -22,7 +23,6 @@
         :desc="project.desc"
         :github_link="project.github_link"
         :website="project.website"
-        :devpost="project.devpost"
         :stack="project.stack"
         :deploy="project.deploy"
         :image="project.image"

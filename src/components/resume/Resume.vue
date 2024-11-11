@@ -1,9 +1,9 @@
 <template>
-  <div class="bg-white flex">
+  <div class="bg-snow flex">
     <div class="m-auto w-full">
       <div class="flex flex-col p-8 px-64 xl:px-24 md:px-12 sm:px-6">
         <div id="experience" class="mx-auto mb-8">
-          <span class="font-bold text-3xl border-b-2 border-gray-400">
+          <span class="font-bold text-3xl border-b-2 border-steel">
             Experience
           </span>
         </div>
@@ -21,7 +21,7 @@
           />
         </div>
         <div id="education" class="mx-auto mb-8">
-          <span class="font-bold text-3xl border-b-2 border-gray-400">
+          <span class="font-bold text-3xl border-b-2 border-steel">
             Education
           </span>
         </div>

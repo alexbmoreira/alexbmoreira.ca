@@ -5,10 +5,11 @@ const workTerms = [
     time: "May 2021 - Present",
     image: "collage_hr.png",
     notes: [
-      "Developed, tested, and implemented solutions to complex problems using Ruby on Rails and React.",
-      "Contributed to the agile development process as part of a team of developers, actively participating in daily scrum meetings and weekly grooming and sprint planning sessions.",
-      "Conducted individual code reviews, to proactively identify and address potential bugs and perpetuate high code quality.",
-      "Managed and resolved a high volume of support requests and technical issues for over 700 clients."
+      "Collaborated in a small, agile team to discuss, design, and solve complex problems with a focus on enhancing user experience.",
+      "Developed applications using Rails and React, implementing complex design patterns to deliver sophisticated HR solutions.",
+      "Efficiently triaged and resolved support requests for over 1,000 clients, providing direct customer support when necessary.",
+      "Conducted thorough code reviews to maintain high-quality standards and best practices.",
+      "Participated actively in daily Scrum meetings and weekly grooming sessions to ensure project alignment."
     ]
   },
   {

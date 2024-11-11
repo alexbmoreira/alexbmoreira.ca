@@ -10,19 +10,16 @@
       <div class="flex items-center justify-between">
         <span class="text-2xl font-bold mb-3">{{ name }}</span>
         <div class="flex space-x-3">
-          <a v-if="devpost" :href="devpost" class="text-2xl">
-            <img src="@/assets/images/devpost.png" class="h-6 align-middle" />
-          </a>
           <a
             v-if="website"
             :href="website"
-            class="text-2xl transition duration-400 ease-in-out hover:text-blue-600"
+            class="text-2xl transition duration-400 ease-in-out hover:text-cornflower"
           >
             <i class="fas fa-link align-top"></i>
           </a>
           <a
             :href="getGithubLink()"
-            class="text-2xl transition duration-400 ease-in-out hover:text-blue-600"
+            class="text-2xl transition duration-400 ease-in-out hover:text-cornflower"
           >
             <i class="fab fa-github align-top"></i>
           </a>
@@ -30,27 +27,19 @@
       </div>
       <p class="text-justify mb-3">{{ desc }}</p>
       <div class="flex justify-between sm:flex-col sm:justify-start">
-        <div class="flex space-x-3 text-2xl">
-          <div v-for="(tech, index) in stack" :key="index">
-            <span :class="`icon-${tech.name}`">
-              <span
-                v-for="index in tech.paths"
-                :key="index"
-                :class="`path${index}`"
-              />
-            </span>
-          </div>
+        <div class="flex items-center space-x-3 text-2xl">
+          <i
+            v-for="(icon, index) in stack"
+            :key="index"
+            :class="`fa-kit fa-${icon} text-brand-${icon}`"
+          />
         </div>
-        <div class="flex space-x-3 text-2xl">
-          <div v-for="(host, index) in deploy" :key="index">
-            <span :class="`icon-${host.name}`">
-              <span
-                v-for="index in host.paths"
-                :key="index"
-                :class="`path${index}`"
-              />
-            </span>
-          </div>
+        <div class="flex items-center space-x-3 text-2xl">
+          <i
+            v-for="(icon, index) in deploy"
+            :key="index"
+            :class="`fa-kit fa-${icon} text-brand-${icon}`"
+          />
         </div>
       </div>
     </div>
@@ -70,7 +59,6 @@ export default {
     website: String,
     stack: Array,
     deploy: Array,
-    devpost: String,
     image: String
   },
   methods: {
