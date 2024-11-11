@@ -8,13 +8,13 @@
         <div class="pl-6 flex flex-col w-5/6 md:pl-0 md:w-full">
           <h1 class="text-2xl font-bold text-snow">About Me</h1>
           <p class="text-platinum text-justify">
-            As a software developer with 2 years of experience working in Ruby
-            on Rails and React, I've built a strong foundation in modern web
-            both front-end and back-end development. I am passionate about
+            As a software developer with three years of experience working with
+            Ruby on Rails and React, I've built a strong foundation in modern
+            web front-end and back-end development. I am passionate about
             computing and am always looking for ways to improve and expand my
-            knowledge and skills. In my current role, I have been able to
-            successfully develop and deliver on a number of complex projects,
-            and I am excited to continue learing and growing in my field.
+            knowledge and skills. In my current role, I have successfully
+            developed and delivered a number of complex projects, and I am
+            excited to continue learning and growing in my field.
           </p>
           <h1 class="text-2xl font-bold text-snow pt-3">Contact</h1>
           <div class="flex flex-col text-platinum">

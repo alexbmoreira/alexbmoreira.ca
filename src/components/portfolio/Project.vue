@@ -13,12 +13,14 @@
           <a
             v-if="website"
             :href="website"
+            target="_blank"
             class="text-2xl transition duration-400 ease-in-out hover:text-cornflower"
           >
             <i class="fas fa-link align-top"></i>
           </a>
           <a
             :href="getGithubLink()"
+            target="_blank"
             class="text-2xl transition duration-400 ease-in-out hover:text-cornflower"
           >
             <i class="fab fa-github align-top"></i>
@@ -26,7 +28,7 @@
         </div>
       </div>
       <p class="text-justify mb-3">{{ desc }}</p>
-      <div class="flex justify-between sm:flex-col sm:justify-start">
+      <div class="flex justify-between">
         <div class="flex items-center space-x-3 text-2xl">
           <i
             v-for="(icon, index) in stack"
@@ -34,7 +36,7 @@
             :class="`fa-kit fa-${icon} text-brand-${icon}`"
           />
         </div>
-        <div class="flex items-center space-x-3 text-2xl">
+        <div class="flex items-center space-x-3 text-2xl sm:justify-end">
           <i
             v-for="(icon, index) in deploy"
             :key="index"
