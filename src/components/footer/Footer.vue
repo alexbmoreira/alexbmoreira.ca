@@ -9,18 +9,21 @@
       >
         <a
           href="https://github.com/alexbmoreira"
+          target="_blank"
           class="text-center transition duration-400 ease-in-out hover:text-snow"
         >
           <i class="fab fa-github"></i>
         </a>
         <a
           href="https://www.linkedin.com/in/alexbmoreira"
+          target="_blank"
           class="text-center transition duration-400 ease-in-out hover:text-snow"
         >
           <i class="fab fa-linkedin"></i>
         </a>
         <a
-          href="https://drive.google.com/file/d/1Z6F-wBMO3iffY8EqHHPXc_ctAi5DKsjX/view?usp=sharing"
+          href="https://storage.googleapis.com/alexbmoreira-site/Alex_Moreira_Resume.pdf"
+          target="_blank"
           class="text-center transition duration-400 ease-in-out hover:text-snow"
         >
           <i class="fas fa-file-pdf"></i>
