@@ -1,17 +1,17 @@
 <template>
   <div class="flex flex-col mb-16 self-center w-full">
-    <div class="flex mb-3 pb-3 border-b-2">
+    <div class="flex mb-3 pb-3 border-b-2 border-steel">
       <div class="w-1/12 sm:w-1/6 mr-5">
         <img class="rounded" :src="getLogo()" alt="" />
       </div>
       <div class="flex flex-col w-full">
         <span class="text-2xl font-bold">{{ org }}</span>
-        <span class="text-sm italic text-gray-500">{{ time }}</span>
+        <span class="text-sm italic text-slate">{{ time }}</span>
         <div class="flex justify-between items-start">
           <span class="text-lg">{{ role }}</span>
           <span
             v-if="collapsible"
-            class="text-lg text-gray-500 cursor-pointer"
+            class="text-lg text-slate cursor-pointer"
             @click="toggleCollapse"
           >
             <i v-if="collapsed" class="fas fa-plus"></i>

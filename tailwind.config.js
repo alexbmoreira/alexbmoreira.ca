@@ -21,6 +21,40 @@ module.exports = {
     fontFamily: {
       quicksand: ["Quicksand", "sans-serif"]
     },
+    colors: {
+      snow: {
+        DEFAULT: "#F2F2F2"
+      },
+      midnight: {
+        DEFAULT: "#161616"
+      },
+      steel: {
+        DEFAULT: "#AFAFAF"
+      },
+      slate: {
+        DEFAULT: "#606367"
+      },
+      platinum: {
+        DEFAULT: "#DADDE4"
+      },
+      cornflower: {
+        DEFAULT: "#7698FF"
+      },
+      indigo: {
+        DEFAULT: "#2E5265"
+      },
+      brand: {
+        ruby: "#CC342D",
+        rails: "#D30001",
+        react: "#61DAFB",
+        postgresql: "#4169E1",
+        tailwind: "#06B6D4",
+        heroku: "#430098",
+        firebase: "#F7C62F",
+        "google-cloud": "#4285F4",
+        python: "#3776AB"
+      }
+    },
     fontSize: {
       "4xs": "0.25rem",
       "3xs": "0.375rem",

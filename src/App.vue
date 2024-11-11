@@ -1,5 +1,5 @@
 <template>
-  <div id="app" class="font-quicksand">
+  <div id="app" class="font-quicksand text-midnight">
     <Header ref="header" />
     <Navbar ref="navbar" />
     <Menu :class="{ invisible: !show_menu }" />
