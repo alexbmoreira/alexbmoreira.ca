@@ -10,9 +10,6 @@
       <div class="flex items-center justify-between">
         <span class="text-2xl font-bold mb-3">{{ name }}</span>
         <div class="flex space-x-3">
-          <a v-if="devpost" :href="devpost" class="text-2xl">
-            <img src="@/assets/images/devpost.png" class="h-6 align-middle" />
-          </a>
           <a
             v-if="website"
             :href="website"
@@ -70,7 +67,6 @@ export default {
     website: String,
     stack: Array,
     deploy: Array,
-    devpost: String,
     image: String
   },
   methods: {

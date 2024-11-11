@@ -22,7 +22,6 @@
         :desc="project.desc"
         :github_link="project.github_link"
         :website="project.website"
-        :devpost="project.devpost"
         :stack="project.stack"
         :deploy="project.deploy"
         :image="project.image"

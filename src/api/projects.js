@@ -25,7 +25,7 @@ const projects = [
   {
     name: "Two's Company Cookbook",
     desc:
-      "A personal cookbook site I created with Rails and React, designed as my go-to platform for viewing my collection of personal recipes. For added functionality, there's a sign-up feature that lets me add notes to each recipe, making it easier to jot down tweaks or tips each I make it. Best viewed on mobile.",
+      "A personal cookbook site I created with Rails and React, designed as my go-to platform for viewing and managing my collection of personal recipes. I can create and modify recipies, and anyone can sign up to add private notes to each recipe, making it easy to jot down tweaks or tips each time I make them. Best viewed on mobile.",
     github_link: "cookbook-site",
     website: "https://twoscompanycookbook.com/",
     stack: [
@@ -76,6 +76,25 @@ const projects = [
       }
     ],
     image: "filler.jpg"
+  },
+  {
+    name: "Forj Custom Homes",
+    desc:
+      "The official website for Forj Custom Homes, a custom home project management business based out of Carlise, ON.",
+    github_link: "movie-match",
+    stack: [
+      {
+        name: "react",
+        paths: 0
+      }
+    ],
+    deploy: [
+      {
+        name: "firebase",
+        paths: 5
+      }
+    ],
+    image: "forj-custom-homes.jpg"
   },
   {
     name: "Movie Matching App",
