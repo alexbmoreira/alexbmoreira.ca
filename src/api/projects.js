@@ -24,7 +24,7 @@ const projects = [
     deploy: [
       { class: "fa-heroku", color: "text-brand-heroku" },
       { class: "fa-firebase", color: "text-brand-firebase" },
-      { class: "fa-google-cloud", color: "text-brand-google" }
+      { class: "fa-google-cloud", color: "text-brand-google-cloud" }
     ],
     image: "twos-company-cookbook.jpg"
   },
