@@ -33,14 +33,14 @@
           <i
             v-for="(icon, index) in stack"
             :key="index"
-            :class="`fa-kit fa-${icon} text-brand-${icon}`"
+            :class="`fa-kit ${icon.class} ${icon.color}`"
           />
         </div>
         <div class="flex items-center space-x-3 text-2xl sm:justify-end">
           <i
             v-for="(icon, index) in deploy"
             :key="index"
-            :class="`fa-kit fa-${icon} text-brand-${icon}`"
+            :class="`fa-kit ${icon.class} ${icon.color}`"
           />
         </div>
       </div>
