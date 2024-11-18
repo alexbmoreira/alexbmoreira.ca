@@ -52,14 +52,13 @@ const projects = [
     name: "Movie Matching App",
     desc:
       "A social film app that transforms the often daunting task of deciding what movie to watch into a seamless process. Users curate personal watchlists and, using a Tinder-style interface, can match with friends on a mutual film choice for their next movie night.",
-    github_link: "movie-match",
+    github_link: "match-cut",
     stack: [
-      { class: "fa-ruby", color: "text-brand-ruby" },
-      { class: "fa-rails", color: "text-brand-rails" },
-      { class: "fa-react", color: "text-brand-react" },
+      { class: "fa-elixir", color: "text-brand-elixir" },
+      { class: "fa-phoenix", color: "text-brand-phoenix" },
       { class: "fa-postgresql", color: "text-brand-postgresql" }
     ],
-    image: "moviematch.jpg"
+    wip: true
   }
 ];
 

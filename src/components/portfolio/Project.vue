@@ -1,33 +1,38 @@
 <template>
   <div class="flex mb-16 sm:flex-col">
-    <div class="w-1/3 mr-6 md:w-1/2 md:mb-2 sm:w-full">
-      <img v-if="image" class="shadow-lg" :src="getProjectImage()" alt="" />
-      <div v-else class="flex">
-        <span class="m-auto md:mb-16">No Image Yet.</span>
-      </div>
+    <div v-if="image" class="w-1/3 mr-6 md:w-1/2 md:mb-2 sm:w-full">
+      <img class="shadow-lg" :src="getProjectImage()" alt="" />
     </div>
-    <div class="flex flex-col w-2/3 md:w-1/2 sm:w-full">
-      <div class="flex items-center justify-between">
-        <span class="text-2xl font-bold mb-3">{{ name }}</span>
-        <div class="flex space-x-3">
-          <a
-            v-if="website"
-            :href="website"
-            target="_blank"
-            class="text-2xl transition duration-400 ease-in-out hover:text-cornflower"
-          >
-            <i class="fas fa-link align-top"></i>
-          </a>
-          <a
-            :href="getGithubLink()"
-            target="_blank"
-            class="text-2xl transition duration-400 ease-in-out hover:text-cornflower"
-          >
-            <i class="fab fa-github align-top"></i>
-          </a>
+    <div
+      :class="
+        `flex flex-col justify-between ${
+          image ? 'w-2/3 md:w-1/2 sm:w-full' : 'w-full'
+        }`
+      "
+    >
+      <div>
+        <div class="flex items-center justify-between">
+          <span class="text-2xl font-bold mb-3">{{ name }}</span>
+          <div class="flex space-x-3">
+            <a
+              v-if="website"
+              :href="website"
+              target="_blank"
+              class="text-2xl transition duration-400 ease-in-out hover:text-cornflower"
+            >
+              <i class="fas fa-link align-top"></i>
+            </a>
+            <a
+              :href="getGithubLink()"
+              target="_blank"
+              class="text-2xl transition duration-400 ease-in-out hover:text-cornflower"
+            >
+              <i class="fab fa-github align-top"></i>
+            </a>
+          </div>
         </div>
+        <p class="text-justify mb-3">{{ desc }}</p>
       </div>
-      <p class="text-justify mb-3">{{ desc }}</p>
       <div class="flex justify-between">
         <div class="flex items-center space-x-3 text-2xl">
           <i
