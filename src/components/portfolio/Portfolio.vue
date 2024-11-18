@@ -35,7 +35,6 @@
       </div>
       <Project
         v-for="(project, index) in projects.filter(p => p.wip)"
-        :id="project.id"
         :name="project.name"
         :desc="project.desc"
         :github_link="project.github_link"

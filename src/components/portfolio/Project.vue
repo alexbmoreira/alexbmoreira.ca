@@ -80,7 +80,6 @@ export default {
     return {};
   },
   props: {
-    id: String,
     name: String,
     desc: String,
     github_link: String,

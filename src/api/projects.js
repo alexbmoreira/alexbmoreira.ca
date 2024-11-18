@@ -10,7 +10,6 @@ const projects = [
   //   image: "alexbmoreira.jpg"
   // },
   {
-    id: "cookbook",
     name: "Two's Company Cookbook",
     desc:
       "A personal cookbook site I created with Rails and React, designed as my go-to platform for viewing and managing my collection of personal recipes. I can create and modify recipies, and anyone can sign up to add private notes to each recipe, making it easy to jot down tweaks or tips each time I make them. Best viewed on mobile.",
@@ -31,7 +30,6 @@ const projects = [
     image: "twos-company-cookbook.jpg"
   },
   {
-    id: "filler",
     name: "Filler",
     desc:
       "Web app clone of the GamePigeon iMessage game made with Python and Flask. It's my sister's favorite game and she wanted a version to play when her friends aren't available. It's played against a computer which will algorithmically make the best move each time.",
@@ -41,7 +39,6 @@ const projects = [
     image: "filler.jpg"
   },
   {
-    id: "forj",
     name: "Forj Custom Homes",
     desc:
       "The official website for Forj Custom Homes, a custom home project management business based out of Carlise, ON.",
@@ -56,7 +53,6 @@ const projects = [
     image: "forj-custom-homes.jpg"
   },
   {
-    id: "match-cut",
     name: "Movie Matching App",
     desc:
       "A social film app that transforms the often daunting task of deciding what movie to watch into a seamless process. Users curate personal watchlists and, using a Tinder-style interface, can match with friends on a mutual film choice for their next movie night.",
