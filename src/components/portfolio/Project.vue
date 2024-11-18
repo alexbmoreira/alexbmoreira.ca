@@ -35,18 +35,38 @@
       </div>
       <div class="flex justify-between">
         <div class="flex items-center space-x-3 text-2xl">
-          <i
+          <a
             v-for="(icon, index) in stack"
             :key="index"
-            :class="`fa-kit ${icon.class} ${icon.color}`"
-          />
+            :class="
+              `relative has-tooltip fa-kit ${icon.class} ${icon.color} cursor-pointer`
+            "
+            :href="icon.link"
+            target="_blank"
+          >
+            <span
+              class="tooltip absolute -top-10 left-1/2 transform -translate-x-1/2 z-50 whitespace-nowrap rounded shadow-sm p-2 text-sm font-quicksand bg-indigo text-snow"
+            >
+              {{ icon.name }}
+            </span>
+          </a>
         </div>
         <div class="flex items-center space-x-3 text-2xl sm:justify-end">
-          <i
+          <a
             v-for="(icon, index) in deploy"
             :key="index"
-            :class="`fa-kit ${icon.class} ${icon.color}`"
-          />
+            :class="
+              `relative has-tooltip fa-kit ${icon.class} ${icon.color} cursor-pointer`
+            "
+            :href="icon.link"
+            target="_blank"
+          >
+            <span
+              class="tooltip absolute -top-10 left-1/2 transform -translate-x-1/2 z-50 whitespace-nowrap rounded shadow-sm p-2 text-sm font-quicksand bg-indigo text-snow"
+            >
+              {{ icon.name }}
+            </span>
+          </a>
         </div>
       </div>
     </div>

@@ -7,3 +7,12 @@
 html {
   scroll-behavior: smooth;
 }
+
+.tooltip {
+  visibility: hidden;
+}
+
+.has-tooltip:hover .tooltip {
+  visibility: visible;
+  z-index: 50;
+}
