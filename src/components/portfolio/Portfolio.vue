@@ -18,7 +18,23 @@
         </p>
       </div>
       <Project
-        v-for="(project, index) in projects"
+        v-for="(project, index) in projects.filter(p => !p.wip)"
+        :name="project.name"
+        :desc="project.desc"
+        :github_link="project.github_link"
+        :website="project.website"
+        :stack="project.stack"
+        :deploy="project.deploy"
+        :image="project.image"
+        :key="index"
+      />
+      <div class="mx-auto mb-6 text-center">
+        <span class="font-bold text-xl border-b-2 border-steel">
+          Work in Progress
+        </span>
+      </div>
+      <Project
+        v-for="(project, index) in projects.filter(p => p.wip)"
         :name="project.name"
         :desc="project.desc"
         :github_link="project.github_link"

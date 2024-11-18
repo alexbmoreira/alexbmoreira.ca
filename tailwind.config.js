@@ -52,7 +52,10 @@ module.exports = {
         heroku: "#430098",
         firebase: "#F7C62F",
         "google-cloud": "#4285F4",
-        python: "#3776AB"
+        python: "#3776AB",
+        elixir: "#4B275F",
+        phoenix: "#FD4F00",
+        swift: "#F05138"
       }
     },
     fontSize: {
