@@ -27,4 +27,7 @@
   --color-brand-elixir: #4B275F;
   --color-brand-phoenix: #FD4F00;
   --color-brand-swift: #F05138;
+
+  /* FONTS */
+  --font-quicksand: 'Quicksand', sans-serif; 
 }
