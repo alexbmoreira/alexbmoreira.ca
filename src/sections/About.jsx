@@ -1,11 +1,11 @@
-import headshot from '@assets/headshot.jpg';
-import { Link } from '@components';
+import headshot from '@images/headshot.jpg';
+import { Container, Link, SubHeader } from '@components';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 const Bio = () => {
   return (
     <div>
-      <div className='text-2xl mb-3 text-center font-semibold md:text-left'>{'About Me'}</div>
+      <SubHeader className='md:text-left' text='About Me'/>
       <div className='text-justify md:text-left'>
         {"As a software developer with three years of experience working with Ruby on Rails and React, I've built a strong foundation in modern web front-end and back-end development. I am passionate about computing and am always looking for ways to improve and expand my knowledge and skills. In my current role, I have successfully developed and delivered a number of complex projects, and I am excited to continue learning and growing in my field."}
       </div>
@@ -16,7 +16,7 @@ const Bio = () => {
 const Contact = () => {
   return (
     <div>
-      <div className='text-2xl mb-3 text-center font-semibold md:text-left'>{'Contact'}</div>
+      <SubHeader className='md:text-left' text='Contact'/>
       <div className='flex flex-col space-y-2'>
         <Link href='mailto:alexbmoreira@gmail.com'>
           <FontAwesomeIcon icon='fa-solid fa-envelope'/>
@@ -33,15 +33,17 @@ const Contact = () => {
 
 const About = () => {
   return (
-    <div id='about' className='flex flex-col items-center bg-indigo text-snow p-8 md:flex-row md:px-32'>
-      <div className='w-1/2 md:w-1/4 lg:w-1/6'>
-        <img className='rounded-full' src={headshot} alt='A picture of me'/>
+    <Container className='bg-indigo text-snow'>
+      <div id='about' className='flex flex-col items-center md:flex-row'>
+        <div className='w-1/2 md:w-1/4 lg:w-1/6'>
+          <img className='rounded-full' src={headshot} alt='A picture of me'/>
+        </div>
+        <div className='flex flex-col mt-4 space-y-4 w-full lg:w-5/6 md:w-3/4 md:ml-8 md:mt-0'>
+          <Bio/>
+          <Contact/>
+        </div>
       </div>
-      <div className='flex flex-col mt-4 space-y-4 w-full lg:w-5/6 md:w-3/4 md:ml-8 md:mt-0'>
-        <Bio/>
-        <Contact/>
-      </div>
-    </div>
+    </Container>
   )
 }
 
