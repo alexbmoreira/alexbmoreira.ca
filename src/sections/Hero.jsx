@@ -1,4 +1,4 @@
-import { IconLink } from '../components'
+import { IconLink } from '@components'
 
 const Hero = () => {
   return (
