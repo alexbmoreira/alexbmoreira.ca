@@ -1,14 +1,11 @@
 import { Link } from '@components'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
-const Hero = () => {
+const Footer = () => {
   return (
-    <div className='flex flex-col justify-center items-center h-screen bg-midnight text-snow p-8'>
-      <div className='text-5xl mb-4 md:text-8xl'>Alex Moreira</div>
-      <div className='text-2xl text-snow opacity-50 mb-2 md:text-3xl'>Software Developer</div>
-      <div className='text-xl text-snow opacity-50 italic'>Toronto, ON</div>
-      <hr className='h-px my-8 bg-snow opacity-50 w-1/2'/>
-      <div className='flex text-4xl space-x-6'>
+    <div className='flex flex-col justify-center items-center bg-midnight text-snow p-6'>
+      <div className='text-sm mb-2'>{'Alex Moreira'}</div>
+      <div className='flex space-x-6'>
         <Link href='https://linkedin.com/in/alexbmoreira/'>
           <FontAwesomeIcon icon='fa-brands fa-linkedin'/>
         </Link>
@@ -23,4 +20,4 @@ const Hero = () => {
   )
 }
 
-export default Hero
+export default Footer

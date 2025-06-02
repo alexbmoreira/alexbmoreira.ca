@@ -2,8 +2,11 @@
 
 @theme {
   /* COLORS */
+  --color-snow-dark: #E1E1E1;
   --color-snow: #F2F2F2FF;
   --color-snow-light: #F2F2F288;
+
+  --color-platinum: #E0E0E0;
   
   --color-midnight: #161616FF;
   --color-midnight-light: #16161688;
@@ -12,7 +15,7 @@
 
   --color-indigo: #2E5265;
 
-  --color-cornflower-light: #ADC2FF;
+  --color-cornflower-light: #99B3FF;
   --color-cornflower: #7698FF;
   --color-cornflower-dark: #5C85FF;
 
@@ -28,6 +31,9 @@
   --color-brand-elixir: #4B275F;
   --color-brand-phoenix: #FD4F00;
   --color-brand-swift: #F05138;
+  --color-brand-javascript: #F7DF1E;
+  --color-brand-linux: #020204;
+  --color-brand-docker: #1D63ED;
 
   /* FONTS */
   --font-quicksand: 'Quicksand', sans-serif; 

@@ -1,5 +1,6 @@
 import { useState, useRef, useEffect } from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { Header } from '@components';
 
 const ResumeTerm = ({term}) => {
   const [expanded, setExpanded] = useState(term.startExpanded);
@@ -17,12 +18,11 @@ const ResumeTerm = ({term}) => {
   return (
     <div>
       <div className='flex border-b-2 border-steel pb-3 mb-3 space-x-3'>
-        <div class='w-20 md:w-24'>
-          <img class='rounded' src={term.image} alt={term.org}/>
+        <div className='min-w-20 w-20 md:min-w-24 md:w-24'>
+          <img className='rounded' src={term.image} alt={term.org}/>
         </div>
         <div className='flex-grow'>
-          <div className='text-2xl font-semibold'>{term.org}</div>
-          <div className='text-midnight-light text-sm italic mb-1'>{term.time}</div>
+          <Header title={term.org} subtitle={term.time}/>
           <div>{term.role}</div>
         </div>
         <div className='w-4 self-end text-steel cursor-pointer relative' onClick={() => setExpanded(!expanded)}>

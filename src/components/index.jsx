@@ -1,15 +1,19 @@
+import Button from './Button';
 import Container from './Container';
-import Header from './Header';
 import IconLink from './IconLink';
 import Link from './Link';
+import Project from './Project';
 import ResumeTerm from './ResumeTerm';
-import SubHeader from './SubHeader';
+import SectionTitle from './SectionTitle';
+import Header from './Header';
 
 export {
+  Button,
   Container,
-  Header,
+  SectionTitle,
   IconLink,
   Link,
+  Project,
   ResumeTerm,
-  SubHeader
+  Header
 }

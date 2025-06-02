@@ -1,6 +1,9 @@
-const Header = ({id, text, className}) => {
+const Header = ({title, subtitle, className}) => {
   return (
-    <div id={id} className={`mb-6 font-bold text-3xl border-b-2 border-cornflower text-center ${className ? className : ''}`}>{text}</div>
+    <div>
+      <div className={`text-2xl font-semibold ${subtitle ? '' : 'mb-3 text-center'} ${className ? className : ''}`}>{title}</div>
+      {subtitle && <div className='text-midnight-light text-sm italic mb-1'>{subtitle}</div>}
+    </div>
   )
 }
 

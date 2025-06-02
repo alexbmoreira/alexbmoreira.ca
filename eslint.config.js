@@ -18,15 +18,16 @@ export default [
       },
     },
     plugins: {
+      'react': react,
       'react-hooks': reactHooks,
       'react-refresh': reactRefresh,
-      '@stylistic': stylistic,
-      '@stylistic/quotes': ['warn', 'single'],
-      '@stylistic/jsx-quotes': ['warn', 'prefer-single']
+      '@stylistic': stylistic
     },
     rules: {
       ...js.configs.recommended.rules,
       ...reactHooks.configs.recommended.rules,
+      '@stylistic/quotes': ['warn', 'single'],
+      '@stylistic/jsx-quotes': ['warn', 'prefer-single']
     },
   },
 ]
