@@ -1,0 +1,40 @@
+@import "tailwindcss";
+
+@theme {
+  /* COLORS */
+  --color-snow-dark: #E1E1E1;
+  --color-snow: #F2F2F2FF;
+  --color-snow-light: #F2F2F288;
+
+  --color-platinum: #E0E0E0;
+  
+  --color-midnight: #161616FF;
+  --color-midnight-light: #16161688;
+
+  --color-steel: #A8A8A8;
+
+  --color-indigo: #2E5265;
+
+  --color-cornflower-light: #99B3FF;
+  --color-cornflower: #7698FF;
+  --color-cornflower-dark: #5C85FF;
+
+  --color-brand-ruby: #CC342D;
+  --color-brand-rails: #D30001;
+  --color-brand-react: #61DAFB;
+  --color-brand-postgresql: #4169E1;
+  --color-brand-tailwind: #06B6D4;
+  --color-brand-heroku: #430098;
+  --color-brand-firebase: #F7C62F;
+  --color-brand-google-cloud: #4285F4;
+  --color-brand-python: #3776AB;
+  --color-brand-elixir: #4B275F;
+  --color-brand-phoenix: #FD4F00;
+  --color-brand-swift: #F05138;
+  --color-brand-javascript: #F7DF1E;
+  --color-brand-linux: #020204;
+  --color-brand-docker: #1D63ED;
+
+  /* FONTS */
+  --font-quicksand: 'Quicksand', sans-serif; 
+}

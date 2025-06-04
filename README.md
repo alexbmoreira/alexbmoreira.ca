@@ -1,24 +1,9 @@
-# alexbmoreira.ca
+# My Personal Website
 
-## Project setup
-```
-npm install
-```
+View on [alexbmoreira.ca](alexbmoreira.ca)
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+## Run app
 
-### Compiles and minifies for production
+```bash
+npm run dev
 ```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
