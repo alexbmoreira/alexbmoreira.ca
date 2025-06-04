@@ -20,16 +20,16 @@ const Menu = ({}) => {
       </div>
       <AnimatePresence mode='wait'>
         {expanded && <motion.div
-          className='flex flex-col bg-midnight text-snow p-4 space-y-2 rounded-2xl fixed left-4'
+          className='flex flex-col bg-midnight text-snow p-4 space-y-2 rounded-2xl fixed left-9 top-16 origin-top-left'
           layout
           transition={{
               type: "spring",
               visualDuration: 0.2,
               bounce: 0.2,
           }}
-          initial={{ top: '1rem', scale: 0 }}
-          animate={{ top: '4rem', scale: 1 }}
-          exit={{ top: '1rem', scale: 0 }}
+          initial={{ left: '2.25rem', scale: 0 }}
+          animate={{ left: '1rem', scale: 1 }}
+          exit={{ left: '2.25rem', scale: 0 }}
         >
           <MenuItem text='About' href='#about' onClick={() => setExpanded(false)}/>
           <MenuItem text='Experience' href='#experience' onClick={() => setExpanded(false)}/>
