@@ -2,6 +2,7 @@ import { useState } from 'react';
 import { Container, SectionTitle, Link, Button, Project } from '@components';
 import { projects } from '@api';
 import _ from 'lodash';
+import { motion, AnimatePresence } from "motion/react"
 
 const Portfolio = () => {
   const [filter, setFilter] = useState('all');
@@ -30,7 +31,11 @@ const Portfolio = () => {
           <Button text='Homelab' onSelect={() => setFilter('homelab')} selected={filter === 'homelab'}/>
         </div>
         <div className='flex flex-col w-full space-y-4'>
-          {filteredProjects().map(project => <Project key={project.name} project={project}/>)}
+        <AnimatePresence>
+          {filteredProjects().map(project => <motion.div key={project.name} initial={{opacity: 0}} animate={{ opacity: 1 }} exit={{opacity: 0}} transition={{ duration: 0.2, ease: 'easeInOut' }} layout>
+            <Project project={project}/>
+          </motion.div>)}
+        </AnimatePresence>
         </div>
       </div>
     </Container>
