@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
-import { Hero, About, Resume, Portfolio, Footer } from './sections'
-import { Menu } from '@components'
-import { motion } from "motion/react"
+import { Hero, About, Resume, Portfolio, Footer } from './sections';
+import { Menu } from '@components';
+import { motion } from 'motion/react';
 
 const Root = () => {
   const [showMenu, setShowMenu] = useState(false);
@@ -30,7 +30,7 @@ const Root = () => {
       <Portfolio/>
       <Footer/>
     </>
-  )
-}
+  );
+};
 
 export default Root;

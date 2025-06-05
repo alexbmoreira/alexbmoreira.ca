@@ -12,7 +12,7 @@ const techStack = {
   linux: { name: 'Linux', link: 'https://kernel.org/', class: 'fa-linux', color: 'text-brand-linux' },
   heroku: { name: 'Heroku', link: 'https://www.heroku.com/', class: 'fa-heroku', color: 'text-brand-heroku' },
   firebase: { name: 'Firebase', link: 'https://firebase.google.com/', class: 'fa-firebase', color: 'text-brand-firebase' },
-  googleCloud: { name: 'Google Cloud', link: 'https://cloud.google.com/', class: 'fa-google-cloud', color: 'text-brand-google-cloud' },
+  googleCloud: { name: 'Google Cloud', link: 'https://cloud.google.com/', class: 'fa-google-cloud', color: 'text-brand-google-cloud' }
 };
 
 export default techStack;

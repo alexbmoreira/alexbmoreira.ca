@@ -15,7 +15,7 @@ const Resume = () => {
         </div>
       </div>
     </Container>
-  )
-}
+  );
+};
 
-export default Resume
+export default Resume;

@@ -1,6 +1,6 @@
 import headshot from '@images/headshot.jpg';
 import { Container, Link, Header } from '@components';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 const Bio = () => {
   return (
@@ -10,8 +10,8 @@ const Bio = () => {
         {"As a software developer with three years of experience working with Ruby on Rails and React, I've built a strong foundation in modern web front-end and back-end development. I am passionate about computing and am always looking for ways to improve and expand my knowledge and skills. In my current role, I have successfully developed and delivered a number of complex projects, and I am excited to continue learning and growing in my field."}
       </div>
     </div>
-  )
-}
+  );
+};
 
 const Contact = () => {
   return (
@@ -28,8 +28,8 @@ const Contact = () => {
         </Link>
       </div>
     </div>
-  )
-}
+  );
+};
 
 const About = () => {
   return (
@@ -44,7 +44,7 @@ const About = () => {
         </div>
       </div>
     </Container>
-  )
-}
+  );
+};
 
-export default About
+export default About;

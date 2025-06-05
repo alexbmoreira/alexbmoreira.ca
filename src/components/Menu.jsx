@@ -1,12 +1,8 @@
-import { useState, useEffect } from 'react'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { AnimatePresence, motion } from "motion/react"
+import { useState, useEffect } from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { AnimatePresence, motion } from 'motion/react';
 
-const MenuItem = ({text, href, onClick}) => {
-  return <a className='duration-300 ease-in-out hover:text-cornflower-light active:text-cornflower-dark' href={href} onClick={onClick}>{text}</a>;
-}
-
-const Menu = ({}) => {
+const Menu = () => {
   const [expanded, setExpanded] = useState(false);
 
   useEffect(() => {
@@ -31,9 +27,9 @@ const Menu = ({}) => {
           className='flex flex-col bg-midnight text-snow p-4 space-y-2 rounded-2xl fixed origin-top-left'
           layout
           transition={{
-              type: "spring",
-              visualDuration: 0.2,
-              bounce: 0.2,
+            type: 'spring',
+            visualDuration: 0.2,
+            bounce: 0.2
           }}
           initial={{ left: '2.25rem', top: '2.25rem', scale: 0 }}
           animate={{ left: '1rem', top: '4rem', scale: 1 }}
@@ -46,7 +42,7 @@ const Menu = ({}) => {
         </motion.div>}
       </AnimatePresence>
     </div>
-  )
-}
+  );
+};
 
-export default Menu
+export default Menu;
