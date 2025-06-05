@@ -1,7 +1,7 @@
 import techStack from './techStack';
 import cookbook from '@images/projects/twos-company-cookbook.png';
 import forj from '@images/projects/forj-custom-homes.png';
-// import filler from '@images/projects/filler.jpg';
+import filler from '@images/projects/filler.png';
 
 const projects = [
   // {
@@ -48,7 +48,8 @@ const projects = [
     desc:
       'A self-hosted media server stack centered around Plex, running in Docker and managed with tools like Kometa, Radarr, Sonarr, and Overseerr. It also features a custom web app where I can pick a seat in my home theater, print a real ticket on an Epson receipt printer, and schedule the movie to start at a specified time. This project is my pride and joy and I love it as if it were my child.',
     githubLink: 'plex-home-theater',
-    stack: [techStack.docker, techStack.linux, techStack.javascript, techStack.python],
+    stack: [techStack.linux, techStack.javascript, techStack.python],
+    deploy: [techStack.docker, techStack.cloudflare],
     type: 'homelab'
   },
   {
@@ -60,16 +61,17 @@ const projects = [
     githubLink: 'tmdb-elixir',
     type: 'package'
   },
-  // {
-  //   name: 'Filler',
-  //   desc:
-  //     "Web app clone of the GamePigeon iMessage game made with Python and Flask. It's my sister's favorite game and she wanted a version to play when her friends aren't available. It's played against a computer which will algorithmically make the best move each time.",
-  //   githubLink: "filler",
-  //   stack: [techStack.python],
-  //   deploy: [techStack.heroku],
-  //   image: filler,
-  //   type: 'app'
-  // },
+  {
+    name: 'Filler',
+    desc:
+      "Web app clone of the GamePigeon iMessage game made with Python and Flask. It's my sister's favorite game and she wanted a version to play when her friends aren't available. It's played against a computer which will algorithmically make the best move each time.",
+    githubLink: 'filler',
+    stack: [techStack.python],
+    deploy: [techStack.docker, techStack.cloudflare],
+    website: 'https://filler.alex-plex.xyz/',
+    image: filler,
+    type: 'app'
+  },
   {
     name: 'Home Assistant Server',
     desc:
