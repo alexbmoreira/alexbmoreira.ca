@@ -6,4 +6,4 @@ export {
   education,
   experience,
   projects
-}
+};

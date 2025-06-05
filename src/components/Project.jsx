@@ -1,9 +1,9 @@
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { Link } from '@components';
 import _ from 'lodash';
 
-const ProjectTitle = ({project}) => {
-  const {name, image, githubLink} = project;
+const ProjectTitle = ({ project }) => {
+  const { name, image, githubLink } = project;
 
   return (
     <div className='flex items-center space-x-3'>
@@ -15,10 +15,10 @@ const ProjectTitle = ({project}) => {
         <FontAwesomeIcon icon='fa-brands fa-github'/>
       </Link>}
     </div>
-  )
-}
+  );
+};
 
-const ProjectStack = ({stack, deploy}) => {
+const ProjectStack = ({ stack, deploy }) => {
   if (_.isEmpty(stack) && _.isEmpty(deploy)) return null;
 
   return (
@@ -34,10 +34,10 @@ const ProjectStack = ({stack, deploy}) => {
         </a>)}
       </div>}
     </div>
-  )
-}
+  );
+};
 
-const Project = ({project}) => {
+const Project = ({ project }) => {
   return (
     <div className='shadow rounded-xl'>
       <div className={`bg-snow p-4 rounded-t-xl ${project.website ? 'cursor-pointer' : 'cursor-default'}`} onClick={() => project.website && window.open(project.website, '_blank').focus()}>
@@ -51,7 +51,7 @@ const Project = ({project}) => {
         <ProjectStack stack={project.stack} deploy={project.deploy}/>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default Project
+export default Project;

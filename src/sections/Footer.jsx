@@ -1,5 +1,5 @@
-import { Link } from '@components'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { Link } from '@components';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 const Footer = () => {
   return (
@@ -17,7 +17,7 @@ const Footer = () => {
         </Link>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default Footer
+export default Footer;

@@ -1,8 +1,8 @@
-import { useState, useRef, useEffect } from 'react'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { useState, useRef, useEffect } from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { Header } from '@components';
 
-const ResumeTerm = ({term}) => {
+const ResumeTerm = ({ term }) => {
   const [expanded, setExpanded] = useState(term.startExpanded);
   const contentRef = useRef(null);
   const [height, setHeight] = useState('0px');
@@ -37,7 +37,7 @@ const ResumeTerm = ({term}) => {
         </div>)}
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default ResumeTerm
+export default ResumeTerm;
