@@ -2,6 +2,10 @@ import { useState, useEffect } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { AnimatePresence, motion } from 'motion/react';
 
+const MenuItem = ({text, href, onClick}) => {
+  return <a className='duration-300 ease-in-out hover:text-cornflower-light active:text-cornflower-dark' href={href} onClick={onClick}>{text}</a>;
+}
+
 const Menu = () => {
   const [expanded, setExpanded] = useState(false);
 
