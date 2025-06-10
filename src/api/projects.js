@@ -47,7 +47,7 @@ const projects = [
     name: 'Plex Server',
     desc:
       'A self-hosted media server stack centered around Plex, running in Docker and managed with tools like Kometa, Radarr, Sonarr, and Overseerr. It also features a custom web app where I can pick a seat in my home theater, print a real ticket on an Epson receipt printer, and schedule the movie to start at a specified time. This project is my pride and joy and I love it as if it were my child.',
-    githubLink: 'plex-home-theater',
+    githubLink: 'plex-server',
     stack: [techStack.linux, techStack.javascript, techStack.python],
     deploy: [techStack.docker, techStack.cloudflare],
     type: 'homelab'
