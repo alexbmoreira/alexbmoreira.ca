@@ -1,6 +1,6 @@
 # My Personal Website
 
-View on [alexbmoreira.ca](alexbmoreira.ca)
+View on [alexbmoreira.ca](https://alexbmoreira.ca)
 
 ## Run app
 
