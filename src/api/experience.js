@@ -10,11 +10,11 @@ const experience = [
     time: 'May 2021 - Present',
     image: collageHr,
     notes: [
-      'Collaborated in a small, agile team to discuss, design, and solve complex problems with a focus on enhancing user experience.',
-      'Developed applications using Rails and React, implementing complex design patterns to deliver sophisticated HR solutions.',
+      'Collaborated in a small, agile team to discuss, design, and solve complex problems.',
+      'Developed features in Rails and React, solving challenging implementation problems with appropriate design patterns.',
+      'Shipped code with high autonomy and took full ownership of features from development through deployment',
       'Efficiently triaged and resolved support requests for over 1,000 clients, providing direct customer support when necessary.',
-      'Conducted thorough code reviews to maintain high-quality standards and best practices.',
-      'Participated actively in daily Scrum meetings and weekly grooming sessions to ensure project alignment.'
+      'Conducted thorough code reviews to maintain high-quality standards and best practices.'
     ],
     startExpanded: true
   },
