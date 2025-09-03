@@ -16,7 +16,7 @@ const projects = [
   {
     name: "Two's Company Cookbook",
     desc:
-      'A personal cookbook site I created with Rails and React, designed as my go-to platform for viewing and managing my collection of personal recipes. I can create and modify recipies, and anyone can sign up to add private notes to each recipe, making it easy to jot down tweaks or tips each time I make them. Best viewed on mobile.',
+      'A personal cookbook site I created with Rails and React, designed as my go-to platform for viewing and managing my collection of personal recipes. I can create and modify recipes, and anyone can sign up to add private notes to each one, making it easy to jot down tweaks or tips each time I make them. Best viewed on mobile.',
     githubLink: 'cookbook-site',
     website: 'https://twoscompanycookbook.com/',
     stack: [techStack.ruby, techStack.rails, techStack.react, techStack.postgresql, techStack.tailwind],
